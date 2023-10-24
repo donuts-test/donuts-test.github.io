@@ -1,6 +1,8 @@
 ---
-# title: Welcome to Jekyll
+title: our papers published
 date: 2022-05-18 17:27:15 +0200
+background:
+  img: "assets/theme/images/news1.jpg"
 # tags: [Shared tag, 👩‍🔬 Emoji tag, "Special /?{:å characters", " Whitespace before and after "]
 ---
 

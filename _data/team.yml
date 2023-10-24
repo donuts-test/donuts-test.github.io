@@ -15,9 +15,10 @@
 
 - name: Dr. Shadi Rezapour
   # role: Director
+  image: assets/theme/images/Shadi-Rezapour.jpg
   description: >
     Assistant professor at Drexel University
-  image: assets/theme/images/Shadi-Rezapour.jpg
+  
   googlescholar: b6UNLaAAAAAJ
   twitter: twitter_username
   mastodon: https://mastodon.social/@mastodon_username
