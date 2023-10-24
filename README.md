@@ -1,4 +1,4 @@
-# petridish 🧫
+# Donuts Colab
 
 Petridish is a Jekyll theme for research project websites. Or your personal blog or lab website. 👩‍🔬 It's mobile-friendly (thanks to [Bootstrap 5](https://getbootstrap.com/docs/5.1/)), free, easy to customize, and designed to work well with [GitHub Pages](https://pages.github.com/).
 
@@ -12,13 +12,10 @@ See the demo website for instructions:
 
 ## Preview
 
-[Demo website](https://peterdesmet.github.io/petridish)
+[Demo website](https://donuts-test.github.io)
 
-[![screenshot](screenshot.png)](https://peterdesmet.github.io/petridish)
 
-## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/peterdesmet/petridish. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
