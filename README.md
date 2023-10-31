@@ -4,11 +4,22 @@ This is a Jekyll theme for research project websites. Or your personal blog or l
 
 ## Installation
 
-See the demo website for instructions:
+-	Install all Prerequisites
 
-- [Installation](https://peterdesmet.github.io/petridish/docs/installation)
-- [Configuration](https://peterdesmet.github.io/petridish/docs/configuration)
-- [Markdown](https://peterdesmet.github.io/petridish/docs/markdown)
+-	Install the jekyll and bundler gems:
+        gem install Jekyll bundler 
+
+-	clone the project:
+git clone https://github.com/donuts-test/donuts-test.github.io
+
+-	Go into your project directory:
+   cd donuts-test.github.io
+
+-	Make the site available on a local server:
+        Bundle exec Jekyll serve
+
+-	Browse to http://localhost:4000/
+
 
 ## Preview
 
@@ -21,11 +32,7 @@ See the demo website for instructions:
 
 [MIT License](LICENSE)
 
----
 
-<!-- All the above is about the Petridish theme, so you might want to remove that. -->
-
-_The instructions below can be adapted/included in the README of your site repository._
 
 ## Usage
 
@@ -35,11 +42,6 @@ Minor changes can be committed directly to `main`.
 
 Changes requiring review (e.g. new blog posts) should be created in a separate branch and submitted as a pull request. Some guidelines:
 
-- Use `72dpi` as image resolution
-- Place background images in `assets/backgrounds/`, name them after their corresponding page/post and ideally crop them to `2100 x 700px`
-- Place content images in `assets/images/`, name them after their corresponding page/post + a suffix, e.g. `-figure-1`
-- Add tags to posts to create relevant groups (e.g. same topic, project).
-- Create internal links as `[previous post]({{ '/permalink/to/post/' | relative_url }})`
 
 ## Repo structure
 
