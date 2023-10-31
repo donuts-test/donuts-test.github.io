@@ -1,10 +1,10 @@
 ---
-layout: research
-title: Research
+layout: researchprojects
+title: Research Projects
 # description: Here you can describe your project, lab or yourself. Or remove this page altogether if you don't want to do that.
 
   # href: https://unsplash.com/photos/UmncJq4KPcA
-permalink: /research/
+permalink: /researchprojects/
 ---
 
 
