@@ -4,7 +4,7 @@ This is a Jekyll theme for research project websites. Or your personal blog or l
 
 ## Installation
 
--	Install all Prerequisites
+-	Install all [Prerequisites](https://jekyllrb.com/docs/installation/)
 
 -	Install the jekyll and bundler gems:
         gem install Jekyll bundler 
