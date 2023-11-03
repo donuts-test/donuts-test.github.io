@@ -1,5 +1,13 @@
 // Navbar
 
+
+
+@media (min-width: 992px){
+.navbar {
+  height:10%;
+}
+}
+
 .navbar {
   background-color: white!important;
   border-bottom: 1px solid $gray-200;
@@ -10,7 +18,7 @@
   .navbar-brand {
     font-weight: bold;
     img {
-      height: 30px;
+      height: 70px;
     }
   }
 
