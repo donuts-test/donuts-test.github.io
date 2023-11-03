@@ -1,6 +1,6 @@
 ---
-title: Kickoff meeting
-description: 9-10 September 2022 in Ghent, Belgium.
+title: Our first meeting.
+description: 6 October 2023 in Philadelphia, PA.
 background:
   img: "assets/theme/images/news2.jpg"
 #   by: Kyle Arcilla
