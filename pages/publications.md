@@ -16,7 +16,7 @@ To remove this page, you need to:
 
 ## Publications
 
-- Rezapour, Rezvaneh, et al. "Moving Beyond Stance Detection in Cross-Cutting Communication Analysis." International Conference on Social Computing, Behavioral-Cultural Modeling and Prediction and Behavior Representation in Modeling and Simulation. Cham: Springer Nature Switzerland, 2023.
+- **Afsaneh Razi**, Ashwaq Alsoubai, Seunghyun Kim, Shiza Ali, Gianluca Stringhini, Munmun De Choudhury, and Pamela J. Wisniewski. 2023. [_Sliding into My DMs: Detecting Uncomfortable or Unsafe Sexual Risk Experiences within Instagram Direct Messages Grounded in the Perspective of Youth_](https://doi.org/10.1145/3579522) Proc. ACM Hum.-Comput. Interact. 7, CSCW1, Article 89 (April 2023), 29 pages. .
 
 
 - Seberger, John S., et al. "Empowering resignation: There’s an app for that." Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 2021.
