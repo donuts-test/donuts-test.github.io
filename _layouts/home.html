@@ -25,17 +25,23 @@ remark: See also page.layout == 'home' in head.html and header.html.
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       {% endif %} -->
-      {% if site.posts_on_home > 0 %}
-      <div class="col-lg-4 cards">
-        <h3 style="display:inline-flex;">NEWS</h3>
-        {% for item in site.posts limit:site.posts_on_home %}
-          <div>
-            {% include card.html %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
+      
     </div>
+    {% if page.news and site.data[page.news] %}
+      {% assign news = site.data[page.news] %}
+    {% elsif site.data.news %}
+      {% assign news = site.data.news %}
+    {% endif %}
+    {% if site.posts_on_home > 0 %}
+    <div class="row cards mt-3">
+      <h4>NEWS</h4>
+      {% for item in news limit:site.posts_on_home %}
+        <div class="col-md-6  col-lg-3">
+          {% include card.html %}
+        </div>
+      {% endfor %}
+    </div>
+    {% endif %}
     
    
 </div>

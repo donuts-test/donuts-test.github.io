@@ -5,13 +5,13 @@
 {% endif %}
 
 <div class="card" data-tags="{% for tag in item.tags %}{{ tag | downcase | strip }}|{% endfor %}">
-  <!-- <a href="{{ item.url | relative_url }}">
+  <a href="{{ item.url | relative_url }}">
     {% if item.background %}
       <img class="card-img-top" src="{{ background | relative_url }}" alt="Background image">  
     {% else %}
       <div class="card-img-top bg-secondary"></div>
     {% endif %}
-  </a> -->
+  </a>
 
   <div class="card-body position-relative">
     <h6 class="card-title">
@@ -19,16 +19,16 @@
       {{ item.title }}
     </h6>
 
-    {% if item.collection == 'posts' %}
-      <h7 class="card-subtitle">{{ item.date | date: '%B %d, %Y' }}</h7>
-    {% endif %}
+      <h7 class="card-subtitle">{{ item.date }}</h7>
 
     <div class="card-text">
+      <h6>
       {% if item.description %}
         {{ item.description | markdownify | strip_html | truncatewords: 20 }}
       {% else %}
         {{ item.excerpt | strip_html | truncatewords: 20 }}
       {% endif %}
+    </h6>
     </div>
   </div>
 
