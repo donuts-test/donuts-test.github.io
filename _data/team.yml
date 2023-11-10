@@ -39,7 +39,7 @@
 
 - name: Layla Bouzoubaa
   # role: Director
-  image: assets\theme\images\layla_bouzoubaa.jpg
+  image: assets/theme/images/layla_bouzoubaa.jpg
   description: >
     Ph.D. student at Drexel University
   googlescholar: MnpEwBkAAAAJ
@@ -51,7 +51,7 @@
 
 - name: Sanonda Datta Gupta
   # role: Director
-  image: assets\theme\images\sanonda-gupta.jpg
+  image: assets/theme/images/sanonda-gupta.jpg
   description: >
     Ph.D. student at Drexel University
   googlescholar: J4CgkboAAAAJ
