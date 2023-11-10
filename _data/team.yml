@@ -60,3 +60,15 @@
   # github: github_username
   email: sanonda.gupta@maine.edu
   # linkedin: sanonda-gupta-8415bba1
+
+  name: Atieh Armin
+  # role: Director
+  image: assets\theme\images\atieh.png
+  description: >
+    Ph.D. student at Drexel University
+  googlescholar: vuubQDkAAAAJ
+  # twitter: jsseberger
+  # mastodon: https://mastodon.social/@mastodon_username
+  github: atiarmn
+  email: atieh.armin@drexel.edu
+  linkedin: atieh-armin
