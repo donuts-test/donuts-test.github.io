@@ -72,3 +72,27 @@
   github: atiarmn
   email: atieh.armin@drexel.edu
   linkedin: atieh-armin
+
+- name: Aria Pessianzade
+  # role: Director
+  image: assets\theme\images\aria.png
+  description: >
+    Ph.D. student at Drexel University
+  googlescholar: 9XOCsOUAAAAJ
+  # twitter: jsseberger
+  # mastodon: https://mastodon.social/@mastodon_username
+  #github: atiarmn
+  #email: atieh.armin@drexel.edu
+  linkedin: aria-pessianzadeh-803a8b1a8
+
+- name: Matt Namvarpour
+  # role: Director
+  image: assets\theme\images\matt.png
+  description: >
+    Ph.D. student at Drexel University
+  googlescholar: v8YoE3kAAAAJ
+  twitter: HalflingWizard_
+  # mastodon: https://mastodon.social/@mastodon_username
+  github: HalflingWizard
+  email: matt.namvarpour@drexel.edu
+  linkedin: matt-namvarpour
