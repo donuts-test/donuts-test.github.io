@@ -24,8 +24,7 @@
   # mastodon: https://mastodon.social/@mastodon_username
   # github: github_username
   email: shadi.rezapour@drexel.edu
-  linkedin: https://www.linkedin.com/in/shadi-rezapour/
-
+  linkedin: shadi-rezapour
 
 - name: Dr. John Seberger
   # role: Director
@@ -37,3 +36,27 @@
   # mastodon: https://mastodon.social/@mastodon_username
   # github: github_username
   email: john.s.seberger@drexel.edu
+
+- name: Layla Bouzoubaa
+  # role: Director
+  image: assets\theme\images\layla_bouzoubaa.jpg
+  description: >
+    Ph.D. student at Drexel University
+  googlescholar: MnpEwBkAAAAJ
+  twitter: bouzoulay
+  # mastodon: https://mastodon.social/@mastodon_username
+  github: labouz
+  email: layla.bzb@gmail.com
+  linkedin: layla-bouzoubaa
+
+  - name: Sanonda Datta Gupta
+  # role: Director
+  image: assets\theme\images\sanonda-gupta.jpg
+  description: >
+    Ph.D. student at Drexel University
+  googlescholar: J4CgkboAAAAJ
+  # twitter: jsseberger
+  # mastodon: https://mastodon.social/@mastodon_username
+  # github: github_username
+  email: sanonda.gupta@maine.edu
+  linkedin: sanonda-gupta-8415bba1
