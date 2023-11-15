@@ -58,4 +58,38 @@ To remove this page, you need to:
 
 
 - This is demo to check (Sanonda)
+
+- Giving a try to tags
+  <form id="sForm" name="sForm" method="POST">
+  <!-- DIV containing textfield, always display -->
+  <div id="inside" name="inside" class="inside">
+    <input type="text" id="searchText" name="searchText" maxlength="25" placeholder="search for games" autocomplete="off" tabindex="1" style="z-index:500" />
+  </div>
+  
+  <!-- DIV of wrapping block -->
+  <div id="outside" name="outside" class="outside hidden">
+    <div class="hd">
+      <div id="closeBtn" name="closeBtn" class="right btnClose">X</div>
+      Search
+    </div>
+    <div class="bd">
+      <div class="right btnSearch">
+        <input type="submit" value="" title="Search" alt="Search" name="submit_searchbox" id="submit_searchbox" tabindex="3" />
+      </div>
+
+      <br>
+
+      <div style="padding:30px 0 5px 5px;">
+        <label>Category</label>
+          <select id="category">
+            <option value="all">All</option>
+            <option value="ps3">PlayStation 3</option>
+            <option value="xbox360">Xbox 360</option>
+            <option value="wii">Wii</option>
+          </select>
+      </div>
+    </div>
+    <div class="ft"></div>
+  </div>
+</form>
  
