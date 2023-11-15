@@ -61,7 +61,7 @@ To remove this page, you need to:
 
 - Giving a try to tags
 -
-<div input class="button" type="submit" value="Online Safety">
-- **Seberger, J. S.**, Choung, H., Snyder, J., & David P. (2024). _Better Living Through Creepy Technology? Exploring Tensions Between a Novel Class of Well-Being Apps and Affective Discomfort in App Culture._ PACMHCI.
-</div>
+<input class="button" type="submit" value="Online Safety">
+  -This is for testing
+
  
