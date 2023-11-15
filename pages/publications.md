@@ -60,6 +60,6 @@ To remove this page, you need to:
 - This is demo to check (Sanonda)
 
 - Giving a try to tags
- <input class="button" type="submit" value="Post comment (input)"
-  -**Seberger, J. S.**, Choung, H., Snyder, J., & David P. (2024). _Better Living Through Creepy Technology? Exploring Tensions Between a Novel Class of Well-Being Apps and Affective Discomfort in App Culture._ PACMHCI. >
+-
+<a href="#" class="button big">Create Project</a>
  
