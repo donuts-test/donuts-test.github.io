@@ -49,19 +49,37 @@ To remove this page, you need to:
 
 - **Seberger, J. S.**, Choung, H., and David, P. (2023). [_Problematizing “Empowerment” in HCAI_.](https://doi.org/10.1007/978-3-031-42286-7_15) In Human-Computer Interaction – INTERACT 2023: 19th IFIP TC13 International Conference, York, UK, August 28 – September 1, 2023. Proceedings, Part III. Springer-Verlag, Berlin, Heidelberg, 270-279.
   
-- **Seberger, J. S.**, Choung, H., Snyder, J., & David P. (2024). _Better Living Through Creepy Technology? Exploring Tensions Between a Novel Class of Well-Being Apps and Affective Discomfort in App Culture._ PACMHCI.
 
+- These are the innitial tags -- Draft (Sanonda) 
 
+<details>
+ <summary>Online Safety</summary>
+   - This is for online privacy
+</details>
 
+<details>
+ <summary>Trust, Ethics, and Privacy</summary>
+  - This is for Trust, ethics Privacy
+</details>
 
+<details>
+ <summary>Human-Computer Interaction</summary>
+ - This is for HCI
+</details>
 
+<details>
+ <summary>Artificial Intelligence </summary>
+ + This is for AI
+</details>
 
+<details>
+  <summary>Social Media Analysis </summary>
+ * this is for social media
+</details>
 
-- This is demo to check (Sanonda)
-
-- Giving a try to tags
--
-<input class="button" type="submit" value="Online Safety">
-  -This is for testing
-
+ <details>
+  <summary>Natural Language Processing </summary>
+  - this is for nlp
+</details>
  
+
