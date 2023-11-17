@@ -134,6 +134,12 @@ description: Template for team page.
       {{ member.description | markdownify }}
 
       <ul class="list-inline">
+        {% if member.email %}
+          <li class="list-inline-item">
+            <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
+          </li>
+        {% endif %}
+
         {% if member.orcid %}
           <li class="list-inline-item">
             <a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid"></i></a>
@@ -158,6 +164,12 @@ description: Template for team page.
           </li>
         {% endif %}
 
+        {% if member.youtube %}
+          <li class="list-inline-item">
+            <a href="https://www.youtube.com/c/{{ member.youtube }}"><i class="fab fa-youtube"></i></a>
+          </li>
+        {% endif %}
+
         {% if member.mastodon %}
           <li class="list-inline-item">
             <a href="{{ member.mastodon }}"><i class="fab fa-mastodon"></i></a>
@@ -170,21 +182,9 @@ description: Template for team page.
           </li>
         {% endif %}
 
-        {% if member.email %}
-          <li class="list-inline-item">
-            <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
-          </li>
-        {% endif %}
-
         {% if member.linkedin %}
           <li class="list-inline-item">
             <a href="https://www.linkedin.com/in/{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.youtube %}
-          <li class="list-inline-item">
-            <a href="https://www.youtube.com/c/{{ member.youtube }}"><i class="fab fa-youtube"></i></a>
           </li>
         {% endif %}
       </ul>
