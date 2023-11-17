@@ -21,9 +21,9 @@
   # role: Director
   image: assets/theme/images/Shadi-Rezapour.jpg
   description: >
-    Assistant professor  
-    Drexel University  
-    Research Interests: Computational Social Science and Natural Language Processing (NLP)  
+    Assistant professor<br>
+    Drexel University<br>
+    Research Interests: Computational Social Science and Natural Language Processing (NLP)<br>
 
   googlescholar: b6UNLaAAAAAJ
   twitter: shadi_rezapour
@@ -37,9 +37,9 @@
   # role: Director
   image: assets/theme/images/John-Seberger.jpg
   description: >
-    Assistant professor  
-    Drexel University  
-    Research Interests: HCI, Informatics, Privacy  
+    Assistant professor<br>
+    Drexel University<br>
+    Research Interests: HCI, Informatics, Privacy<br>
 
   googlescholar: 6AkP0EcAAAAJ
   twitter: jsseberger
