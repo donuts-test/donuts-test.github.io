@@ -18,7 +18,7 @@ To remove this page, you need to:
 
 <!---- Here create buttons for all the tags --->
 
-<div>
+<div style="width: 100%; text-align: center;">
     <button id="Button_All">All</button>
     <button id="Button_OnlineSafety">Online Safety</button>
     <button id="Button_Trust">Trust, Ethics, and Privacy</button>
