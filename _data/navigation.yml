@@ -4,12 +4,13 @@
   href: /
 - text: News
   href: /news/
-- text: publications
+- text: Publications
   href: /publications/
-- text: Research Projects
-  href: /researchprojects/
 - text: Team
   href: /team/
+# - text: Research Projects
+#   href: /researchprojects/
+
 
 
 
