@@ -1,1 +1,49 @@
 # Project team members listed below will appear on the /team page
+
+- name: Dr. Afsaneh Razi
+  # role: Director # Will appear next to name
+  image: assets/theme/images/afsaneh-razi-web.jpeg # Can be external link
+  description: > # Can be Markdown
+    Assistant professor<br>
+    Drexel University<br>
+    Research Interests: HCI, Social Computing, AI/ML, Privacy, and Online Safety<br>
+
+  # orcid: 0000-0000-0000-0000
+  # researchgate: researchgate_username
+  googlescholar: sV43f5AAAAAJ
+  twitter: Afsaneh_Razi
+  # mastodon: https://mastodon.social/@mastodon_username
+  # github: github_username
+  email: afsaneh.razi@drexel.edu
+  website: https://www.afsanehrazi.com/
+
+- name: Dr. Shadi Rezapour
+  # role: Director
+  image: assets/theme/images/Shadi-Rezapour.jpg
+  description: >
+    Assistant professor<br>
+    Drexel University<br>
+    Research Interests: Computational Social Science and Natural Language Processing (NLP)<br>
+
+  googlescholar: b6UNLaAAAAAJ
+  twitter: shadi_rezapour
+  # mastodon: https://mastodon.social/@mastodon_username
+  # github: github_username
+  email: shadi.rezapour@drexel.edu
+  linkedin: shadi-rezapour
+  website: https://www.shadirezapour.com/
+
+- name: Dr. John Seberger
+  # role: Director
+  image: assets/theme/images/John-Seberger.jpg
+  description: >
+    Assistant professor<br>
+    Drexel University<br>
+    Research Interests: HCI, Informatics, Privacy<br>
+
+  googlescholar: 6AkP0EcAAAAJ
+  twitter: jsseberger
+  # mastodon: https://mastodon.social/@mastodon_username
+  # github: github_username
+  email: john.s.seberger@drexel.edu
+  website: https://seberger.net/
