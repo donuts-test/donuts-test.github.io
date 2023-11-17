@@ -12,7 +12,7 @@ description: Template for team page.
 {{ content }}
 
 {% for member in team %}
-  <div class="col-md-4 col-lg-4 col-sm-8 team-member">
+  <div class="col-md-3 col-lg-3 col-sm-8 team-member">
 
     <div class="flex-shrink-0 me-3">
       {% if member.image %}
@@ -20,23 +20,23 @@ description: Template for team page.
       {% endif %}
     </div>
     <div>
-        {% if member.website %}
-          <a href="{{ member.website }}">
-            <h5 id="{{ member.name | strip | url_encode }}">
-              {{ member.name }}
-              {% if member.role %}
-                <small class="text-muted">| {{ member.role }}</small>
-              {% endif %}
-            </h5>
-          </a>
-        {% else %}
+      {% if member.website %}
+        <a href="{{ member.website }}">
           <h5 id="{{ member.name | strip | url_encode }}">
             {{ member.name }}
             {% if member.role %}
               <small class="text-muted">| {{ member.role }}</small>
             {% endif %}
           </h5>
-        {% endif %}
+        </a>
+      {% else %}
+        <h5 id="{{ member.name | strip | url_encode }}">
+          {{ member.name }}
+          {% if member.role %}
+            <small class="text-muted">| {{ member.role }}</small>
+          {% endif %}
+        </h5>
+      {% endif %}
 
       {{ member.description | markdownify }}
 
