@@ -4,11 +4,10 @@
   # role: Director # Will appear next to name
   image: assets/theme/images/afsaneh-razi-web.jpeg # Can be external link
   description: > # Can be Markdown
-    Assistant professor
+    Assistant professor  
+    Drexel University  
+    Research Interests: HCI, Social Computing, AI/ML, Privacy, and Online Safety  
 
-    Drexel University
-
-    Research Interests: HCI, Social Computing, AI/ML, Privacy, and Online Safety
   # orcid: 0000-0000-0000-0000
   # researchgate: researchgate_username
   googlescholar: sV43f5AAAAAJ
@@ -22,12 +21,10 @@
   # role: Director
   image: assets/theme/images/Shadi-Rezapour.jpg
   description: >
-    Assistant professor
-
-    Drexel University
-
-    Research Interests: Computational Social Science and Natural Language Processing (NLP)
-  
+    Assistant professor  
+    Drexel University  
+    Research Interests: Computational Social Science and Natural Language Processing (NLP)  
+      
   googlescholar: b6UNLaAAAAAJ
   twitter: shadi_rezapour
   # mastodon: https://mastodon.social/@mastodon_username
@@ -40,11 +37,10 @@
   # role: Director
   image: assets/theme/images/John-Seberger.jpg
   description: >
-    Assistant professor
+    Assistant professor  
+    Drexel University  
+    Research Interests: HCI, Informatics, Privacy  
 
-    Drexel University
-    
-    Research Interests: HCI, Informatics, Privacy
   googlescholar: 6AkP0EcAAAAJ
   twitter: jsseberger
   # mastodon: https://mastodon.social/@mastodon_username
