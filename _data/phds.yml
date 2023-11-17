@@ -4,7 +4,9 @@
   # role: Research Assistant
   image: assets/theme/images/layla_bouzoubaa.jpg
   description: >
-    Ph.D. student at Drexel University
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Harm Reduction, Natural Language Processing (NLP), Social Media Research<br>
   googlescholar: MnpEwBkAAAAJ
   twitter: bouzoulay
   # mastodon: https://mastodon.social/@mastodon_username
@@ -16,7 +18,9 @@
   # role: Director
   image: assets/theme/images/sanonda-gupta.jpg
   description: >
-    Ph.D. student at Drexel University
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Trust, Ethics, and Privacy in HCI, Social Computing, Conceptual Modelling, and Ontological Modeling<br>
   googlescholar: J4CgkboAAAAJ
   # twitter: jsseberger
   # mastodon: https://mastodon.social/@mastodon_username
@@ -24,11 +28,27 @@
   email: sanonda.gupta@maine.edu
   # linkedin: sanonda-gupta-8415bba1
 
+- name: Elham Aghakhani
+  # role: Director
+  image: assets/theme/images/elham-aghakhani.jpg
+  description: >
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Artificial Intelligence, Machine Learning, Natural Language Processing (NLP)<br>
+  # googlescholar: J4CgkboAAAAJ
+  # twitter: jsseberger
+  # mastodon: https://mastodon.social/@mastodon_username
+  github: elhamaghakhani
+  email: elham.aghakhani@drexel.edu
+  linkedin: elham-aghakhani
+
 - name: Atieh Armin
   # role: Director
   image: assets/theme/images/Atieh.png
   description: >
-    Ph.D. student at Drexel University
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Human-AI Interaction, Artificial Intelligence, Social Media, Machine Learning, Computing Social Science<br>
   googlescholar: vuubQDkAAAAJ
   # twitter: jsseberger
   # mastodon: https://mastodon.social/@mastodon_username
@@ -40,7 +60,9 @@
   # role: Director
   image: assets/theme/images/aria.png
   description: >
-    Ph.D. student at Drexel University
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Politics, Boring stuff.<br>
   googlescholar: 9XOCsOUAAAAJ
   # twitter: jsseberger
   # mastodon: https://mastodon.social/@mastodon_username
@@ -52,7 +74,9 @@
   # role: Director
   image: assets/theme/images/matt.png
   description: >
-    Ph.D. student at Drexel University
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Artificial Intelligence, Machine Learning, Human-AI Interaction<br>
   googlescholar: v8YoE3kAAAAJ
   twitter: HalflingWizard_
   youtube: HalflingWizard

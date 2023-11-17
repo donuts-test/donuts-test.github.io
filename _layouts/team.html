@@ -4,16 +4,16 @@ description: Template for team page.
 ---
 
 {% if page.team and site.data[page.team] %}
-  {% assign team = site.data[page.team] %}
-  {% assign research_assistants = site.data[page.researchassistants] %}
+  {% assign directors = site.data[page.directors] %}
+  {% assign phds = site.data[page.phds] %}
 {% elsif site.data.team %}
-  {% assign team = site.data.team %}
-  {% assign research_assistants = site.data.researchassistants %}
+  {% assign directors = site.data.directors %}
+  {% assign phds = site.data.phds %}
 {% endif %}
 
 <h2>Directors</h2>
 
-{% for member in team %}
+{% for member in directors %}
   <div class="col-md-4 col-lg-3 col-sm-8 team-member">
 
     <div class="flex-shrink-0 mx-auto">
@@ -43,6 +43,12 @@ description: Template for team page.
       {{ member.description | markdownify }}
 
       <ul class="list-inline">
+        {% if member.email %}
+          <li class="list-inline-item">
+            <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
+          </li>
+        {% endif %}
+
         {% if member.orcid %}
           <li class="list-inline-item">
             <a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid"></i></a>
@@ -67,6 +73,12 @@ description: Template for team page.
           </li>
         {% endif %}
 
+        {% if member.youtube %}
+          <li class="list-inline-item">
+            <a href="https://www.youtube.com/c/{{ member.youtube }}"><i class="fab fa-youtube"></i></a>
+          </li>
+        {% endif %}
+
         {% if member.mastodon %}
           <li class="list-inline-item">
             <a href="{{ member.mastodon }}"><i class="fab fa-mastodon"></i></a>
@@ -79,31 +91,20 @@ description: Template for team page.
           </li>
         {% endif %}
 
-        {% if member.email %}
-          <li class="list-inline-item">
-            <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
-          </li>
-        {% endif %}
-
         {% if member.linkedin %}
           <li class="list-inline-item">
             <a href="https://www.linkedin.com/in/{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a>
           </li>
         {% endif %}
 
-        {% if member.youtube %}
-          <li class="list-inline-item">
-            <a href="https://www.youtube.com/c/{{ member.youtube }}"><i class="fab fa-youtube"></i></a>
-          </li>
-        {% endif %}
       </ul>
     </div>
   </div>
 {% endfor %}
 
-<h2>Research Assistants</h2>
+<h2>Ph.D. Students</h2>
 
-{% for member in research_assistants %}
+{% for member in phds %}
   <div class="col-md-4 col-lg-3 col-sm-8 team-member">
 
     <div class="flex-shrink-0 mx-auto">

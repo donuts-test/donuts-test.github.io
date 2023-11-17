@@ -47,3 +47,88 @@
   # github: github_username
   email: john.s.seberger@drexel.edu
   website: https://seberger.net/
+
+  - name: Layla Bouzoubaa
+  # role: Research Assistant
+  image: assets/theme/images/layla_bouzoubaa.jpg
+  description: >
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Harm Reduction, Natural Language Processing (NLP), Social Media Research<br>
+  googlescholar: MnpEwBkAAAAJ
+  twitter: bouzoulay
+  # mastodon: https://mastodon.social/@mastodon_username
+  github: labouz
+  email: layla.bzb@gmail.com
+  linkedin: layla-bouzoubaa
+
+- name: Sanonda Datta Gupta
+  # role: Director
+  image: assets/theme/images/sanonda-gupta.jpg
+  description: >
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Trust, Ethics, and Privacy in HCI, Social Computing, Conceptual Modelling, and Ontological Modeling<br>
+  googlescholar: J4CgkboAAAAJ
+  # twitter: jsseberger
+  # mastodon: https://mastodon.social/@mastodon_username
+  # github: github_username
+  email: sanonda.gupta@maine.edu
+  # linkedin: sanonda-gupta-8415bba1
+
+- name: Elham Aghakhani
+  # role: Director
+  image: assets/theme/images/elham-aghakhani.jpg
+  description: >
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Artificial Intelligence, Machine Learning, Natural Language Processing (NLP)<br>
+  # googlescholar: J4CgkboAAAAJ
+  # twitter: jsseberger
+  # mastodon: https://mastodon.social/@mastodon_username
+  github: elhamaghakhani
+  email: elham.aghakhani@drexel.edu
+  linkedin: elham-aghakhani
+
+- name: Atieh Armin
+  # role: Director
+  image: assets/theme/images/Atieh.png
+  description: >
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Human-AI Interaction, Artificial Intelligence, Social Media, Machine Learning, Computing Social Science<br>
+  googlescholar: vuubQDkAAAAJ
+  # twitter: jsseberger
+  # mastodon: https://mastodon.social/@mastodon_username
+  github: atiarmn
+  email: atieh.armin@drexel.edu
+  linkedin: atieh-armin
+
+- name: Aria Pessianzade
+  # role: Director
+  image: assets/theme/images/aria.png
+  description: >
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Politics, Boring stuff.<br>
+  googlescholar: 9XOCsOUAAAAJ
+  # twitter: jsseberger
+  # mastodon: https://mastodon.social/@mastodon_username
+  #github: atiarmn
+  #email: atieh.armin@drexel.edu
+  linkedin: aria-pessianzadeh-803a8b1a8
+
+- name: Matt Namvarpour
+  # role: Director
+  image: assets/theme/images/matt.png
+  description: >
+    Ph.D. Student<br>
+    Drexel University<br>
+    Research Interests: Artificial Intelligence, Machine Learning, Human-AI Interaction<br>
+  googlescholar: v8YoE3kAAAAJ
+  twitter: HalflingWizard_
+  youtube: HalflingWizard
+  # mastodon: https://mastodon.social/@mastodon_username
+  github: HalflingWizard
+  email: matt.namvarpour@drexel.edu
+  linkedin: matt-namvarpour
