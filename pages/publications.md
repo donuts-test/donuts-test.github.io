@@ -52,10 +52,10 @@ To remove this page, you need to:
 
 - These are the innitial tags -- Draft (Sanonda)
 
-  This is demo for button:
+This is demo for button:
 
 <button id="toggleButton">Toggle Text</button>
-<p id="textToToggle" style="display: none;">This is the text to show or hide.</p>
+<p id="textToToggle" style="display: none;"> This is the text to show or hide.</p>
 
 <script>
 document.getElementById("toggleButton").addEventListener("click", function() {
