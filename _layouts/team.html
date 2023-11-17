@@ -110,7 +110,7 @@ description: Template for team page.
     <div class="member-container">
       <div class="flex-shrink-0 mx-auto">
         {% if member.image %}
-          <img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
+          <img src="{{ member.image | relative_url }}" alt="{{ member.name }} " class="img-fluid">
         {% endif %}
       </div>
       <div>
