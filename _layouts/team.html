@@ -14,7 +14,7 @@ description: Template for team page.
 {% for member in team %}
   <div class="col-md-4 col-lg-3 col-sm-8 team-member">
 
-    <div class="flex-shrink-0 me-auto">
+    <div class="flex-shrink-0 mx-auto">
       {% if member.image %}
         <img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
       {% endif %}
