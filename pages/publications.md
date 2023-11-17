@@ -55,22 +55,31 @@ To remove this page, you need to:
 This is demo for button:
 
 <div>
-    <button id="toggleButton1">Online Safety</button>
-    <button id="toggleButton2">NLP</button>
+    <button id="toggleButton1">Toggle List 1</button>
+    <button id="toggleButton2">Toggle List 2</button>
 </div>
 
-<p id="textToToggle1" style="display: none;">This is the first text to show or hide.</p>
-<p id="textToToggle2" style="display: none;">This is the second text to show or hide.</p>
+<ul id="listToToggle1" style="display: none;">
+    <li>**Seberger, J. S.**, Choung, H., and David, P. (2023). [_Problematizing “Empowerment” in HCAI_.](https://doi.org/10.1007/978-3-031-42286-7_15) In Human-Computer Interaction – INTERACT 2023: 19th IFIP TC13 International Conference, York, UK, August 28 – September 1, 2023. Proceedings, Part III. Springer-Verlag, Berlin, Heidelberg, 270-279.</li>
+    <li>Second item of list 1</li>
+    <li>Third item of list 1</li>
+</ul>
+
+<ul id="listToToggle2" style="display: none;">
+    <li>First item of list 2</li>
+    <li>Second item of list 2</li>
+    <li>Third item of list 2</li>
+</ul>
 
 <script>
 document.getElementById("toggleButton1").addEventListener("click", function() {
-    var text = document.getElementById("textToToggle1");
-    text.style.display = text.style.display === "none" ? "block" : "none";
+    var list = document.getElementById("listToToggle1");
+    list.style.display = list.style.display === "none" ? "block" : "none";
 });
 
 document.getElementById("toggleButton2").addEventListener("click", function() {
-    var text = document.getElementById("textToToggle2");
-    text.style.display = text.style.display === "none" ? "block" : "none";
+    var list = document.getElementById("listToToggle2");
+    list.style.display = list.style.display === "none" ? "block" : "none";
 });
 </script>
 
