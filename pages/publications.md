@@ -54,17 +54,23 @@ To remove this page, you need to:
 
 This is demo for button:
 
-<button id="toggleButton">Toggle Text</button>
-<p id="textToToggle" style="display: none;"> This is the text to show or hide.</p>
+<div>
+    <button id="toggleButton1">Online Safety</button>
+    <button id="toggleButton2">NLP</button>
+</div>
+
+<p id="textToToggle1" style="display: none;">This is the first text to show or hide.</p>
+<p id="textToToggle2" style="display: none;">This is the second text to show or hide.</p>
 
 <script>
-document.getElementById("toggleButton").addEventListener("click", function() {
-    var text = document.getElementById("textToToggle");
-    if (text.style.display === "none") {
-        text.style.display = "block";
-    } else {
-        text.style.display = "none";
-    }
+document.getElementById("toggleButton1").addEventListener("click", function() {
+    var text = document.getElementById("textToToggle1");
+    text.style.display = text.style.display === "none" ? "block" : "none";
+});
+
+document.getElementById("toggleButton2").addEventListener("click", function() {
+    var text = document.getElementById("textToToggle2");
+    text.style.display = text.style.display === "none" ? "block" : "none";
 });
 </script>
 
