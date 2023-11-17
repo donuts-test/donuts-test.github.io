@@ -50,7 +50,23 @@ To remove this page, you need to:
 - **Seberger, J. S.**, Choung, H., and David, P. (2023). [_Problematizing “Empowerment” in HCAI_.](https://doi.org/10.1007/978-3-031-42286-7_15) In Human-Computer Interaction – INTERACT 2023: 19th IFIP TC13 International Conference, York, UK, August 28 – September 1, 2023. Proceedings, Part III. Springer-Verlag, Berlin, Heidelberg, 270-279.
   
 
-- These are the innitial tags -- Draft (Sanonda) 
+- These are the innitial tags -- Draft (Sanonda)
+
+  This is demo for button:
+
+<button id="toggleButton">Toggle Text</button>
+<p id="textToToggle" style="display: none;">This is the text to show or hide.</p>
+
+<script>
+document.getElementById("toggleButton").addEventListener("click", function() {
+    var text = document.getElementById("textToToggle");
+    if (text.style.display === "none") {
+        text.style.display = "block";
+    } else {
+        text.style.display = "none";
+    }
+});
+</script>
 
 <details>
  <summary>Online Safety</summary>
