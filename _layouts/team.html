@@ -22,7 +22,7 @@ description: Template for team page.
     <div>
       {% if member.website %}
         <a href="{{ member.website }}">
-          <h5 id="{{ member.name | strip | url_encode }}">
+          <h5 id="{{ member.name }}">
             {{ member.name }}
             {% if member.role %}
               <small class="text-muted">| {{ member.role }}</small>
@@ -30,7 +30,7 @@ description: Template for team page.
           </h5>
         </a>
       {% else %}
-        <h5 id="{{ member.name | strip | url_encode }}">
+        <h5 id="{{ member.name | strip }}">
           {{ member.name }}
           {% if member.role %}
             <small class="text-muted">| {{ member.role }}</small>
