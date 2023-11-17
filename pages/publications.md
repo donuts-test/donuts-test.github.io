@@ -19,17 +19,17 @@ To remove this page, you need to:
 <!---- Here create buttons for all the tags --->
 
 <div style="width: 100%; text-align: center;">
-    <button id="Button_All">All</button>
-    <button id="Button_OnlineSafety">Online Safety</button>
-    <button id="Button_Trust">Trust, Ethics, and Privacy</button>
-    <button id="Button_AI">Artificial-Intelligent</button>
-    <button id="Button_HCI">Human-Computer Interaction</button>
-    <button id="Button_NLP">Natural Language Processing</button>
-    <button id="Button_SMA">Social Media Analysis</button>
-    <button id="Button_Computational">Computational Social Science</button>
-    <button id="Button_SocialInformatics">Social Informatics</button>
-    <button id="Button_Youth">Youth</button>
-    <button id="Button_HealthInformatics">Health Informatics</button>
+    <button id="Button_All" style="margin-top: 10px; margin-bottom: 10px;">All</button>
+    <button id="Button_OnlineSafety" style="margin-top: 10px; margin-bottom: 10px;">Online Safety</button>
+    <button id="Button_Trust" style="margin-top: 10px; margin-bottom: 10px;">Trust, Ethics, and Privacy</button>
+    <button id="Button_AI" style="margin-top: 10px; margin-bottom: 10px;">Artificial-Intelligent</button>
+    <button id="Button_HCI" style="margin-top: 10px; margin-bottom: 10px;">Human-Computer Interaction</button>
+    <button id="Button_NLP" style="margin-top: 10px; margin-bottom: 10px;">Natural Language Processing</button>
+    <button id="Button_SMA" style="margin-top: 10px; margin-bottom: 10px;">Social Media Analysis</button>
+    <button id="Button_Computational" style="margin-top: 10px; margin-bottom: 10px;">Computational Social Science</button>
+    <button id="Button_SocialInformatics" style="margin-top: 10px; margin-bottom: 10px;">Social Informatics</button>
+    <button id="Button_Youth" style="margin-top: 10px; margin-bottom: 10px;">Youth</button>
+    <button id="Button_HealthInformatics" style="margin-top: 10px; margin-bottom: 10px;">Health Informatics</button>
 
 </div>
 
