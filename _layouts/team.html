@@ -20,7 +20,11 @@ description: Template for team page.
       {% endif %}
     </div>
     <div>
-      <h5 id="{{ member.name | strip | url_encode }}">
+        {% if page.team and site.data[page.team] %}
+          <a href="{{ member.website }}"><h5 id="{{ member.name | strip | url_encode }}"></h5></a>
+        {% else %}
+          <h5 id="{{ member.name | strip | url_encode }}">
+        {% endif %}
         {{ member.name }}
         {% if member.role %}
           <small class="text-muted">| {{ member.role }}</small>

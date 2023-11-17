@@ -1,6 +1,6 @@
 # Project team members listed below will appear on the /team page
 
-- name: Dr. Afsane Razi
+- name: Dr. Afsaneh Razi
   # role: Director # Will appear next to name
   image: assets/theme/images/afsaneh-razi-web.jpeg # Can be external link
   description: > # Can be Markdown
@@ -12,6 +12,7 @@
   # mastodon: https://mastodon.social/@mastodon_username
   # github: github_username
   email: afsaneh.razi@drexel.edu
+  website: https://www.afsanehrazi.com/
 
 - name: Dr. Shadi Rezapour
   # role: Director
@@ -25,6 +26,7 @@
   # github: github_username
   email: shadi.rezapour@drexel.edu
   linkedin: shadi-rezapour
+  website: https://www.shadirezapour.com/
 
 - name: Dr. John Seberger
   # role: Director
@@ -36,6 +38,7 @@
   # mastodon: https://mastodon.social/@mastodon_username
   # github: github_username
   email: john.s.seberger@drexel.edu
+  website: https://seberger.net/
 
 - name: Layla Bouzoubaa
   # role: Director
@@ -63,7 +66,7 @@
 
 - name: Atieh Armin
   # role: Director
-  image: assets\theme\images\Atieh.png
+  image: assets/theme/images/Atieh.png
   description: >
     Ph.D. student at Drexel University
   googlescholar: vuubQDkAAAAJ
@@ -75,7 +78,7 @@
 
 - name: Aria Pessianzade
   # role: Director
-  image: assets\theme\images\aria.png
+  image: assets/theme/images/aria.png
   description: >
     Ph.D. student at Drexel University
   googlescholar: 9XOCsOUAAAAJ
@@ -87,7 +90,7 @@
 
 - name: Matt Namvarpour
   # role: Director
-  image: assets\theme\images\matt.png
+  image: assets/theme/images/matt.png
   description: >
     Ph.D. student at Drexel University
   googlescholar: v8YoE3kAAAAJ
