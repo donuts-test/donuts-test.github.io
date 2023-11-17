@@ -20,9 +20,8 @@ description: Template for team page.
       {% endif %}
     </div>
     <div>
-      <div style="text-align: center;">
       {% if member.website %}
-        <a href="{{ member.website }}">
+        <a href="{{ member.website }}" style="text-align: center;">
           <h5 id="{{ member.name | strip | url_encode }}">
             {{ member.name }}
             {% if member.role %}
@@ -31,14 +30,13 @@ description: Template for team page.
           </h5>
         </a>
       {% else %}
-        <h5 id="{{ member.name | strip | url_encode }}">
+        <h5 id="{{ member.name | strip | url_encode }}" style="text-align: center;">
           {{ member.name }}
           {% if member.role %}
             <small class="text-muted">| {{ member.role }}</small>
           {% endif %}
         </h5>
       {% endif %}
-      </div>
 
       {{ member.description | markdownify }}
 
