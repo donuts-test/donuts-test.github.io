@@ -1,7 +1,7 @@
 # Project team members listed below will appear on the /team page
 
 - name: Dr. Afsaneh Razi
-  # role: Director # Will appear next to name
+  role: Director # Will appear next to name
   image: assets/theme/images/afsaneh-razi-web.jpeg # Can be external link
   description: > # Can be Markdown
     Assistant professor at Drexel University
@@ -15,7 +15,7 @@
   website: https://www.afsanehrazi.com/
 
 - name: Dr. Shadi Rezapour
-  # role: Director
+  role: Director
   image: assets/theme/images/Shadi-Rezapour.jpg
   description: >
     Assistant professor at Drexel University
@@ -29,7 +29,7 @@
   website: https://www.shadirezapour.com/
 
 - name: Dr. John Seberger
-  # role: Director
+  role: Director
   image: assets/theme/images/John-Seberger.jpg
   description: >
     Assistant professor at Drexel University
@@ -41,7 +41,7 @@
   website: https://seberger.net/
 
 - name: Layla Bouzoubaa
-  # role: Director
+  role: Research Assistant
   image: assets/theme/images/layla_bouzoubaa.jpg
   description: >
     Ph.D. student at Drexel University
