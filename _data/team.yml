@@ -5,7 +5,9 @@
   image: assets/theme/images/afsaneh-razi-web.jpeg # Can be external link
   description: > # Can be Markdown
     Assistant professor
+
     Drexel University
+
     Research Interests: HCI, Social Computing, AI/ML, Privacy, and Online Safety
   # orcid: 0000-0000-0000-0000
   # researchgate: researchgate_username
@@ -21,7 +23,9 @@
   image: assets/theme/images/Shadi-Rezapour.jpg
   description: >
     Assistant professor
+
     Drexel University
+
     Research Interests: Computational Social Science and Natural Language Processing (NLP)
   
   googlescholar: b6UNLaAAAAAJ
@@ -37,7 +41,9 @@
   image: assets/theme/images/John-Seberger.jpg
   description: >
     Assistant professor
+
     Drexel University
+    
     Research Interests: HCI, Informatics, Privacy
   googlescholar: 6AkP0EcAAAAJ
   twitter: jsseberger
