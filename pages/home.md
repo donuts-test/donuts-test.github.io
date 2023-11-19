@@ -8,9 +8,7 @@ permalink: /
 
 
 ## About Us
-DONUTS CoLab is an interdisciplinary research group that works at the intersection of AI, data, society, and safety. We aim to address the ethical and societal implications of AI technologies while ensuring their safe and responsible development and deployment. With a diverse team of experts, DONUTS Colab collaborates with industry partners, policymakers, and academia to drive meaningful advancements in AI that benefit society as a whole. 
-
-DONUTS CoLab is an interdisciplinary research group that works at the intersection of AI, data, society, and safety. We aim to address the ethical and societal implications of AI technologies while ensuring their safe and responsible development and deployment. With a diverse team of experts, DONUTS Colab collaborates with industry partners, policymakers, and academia to drive meaningful advancements in AI that benefit society as a whole. 
+DONUTS Collaboratory is a research collective. Co-founded by three faculty in Drexel University's Information Science Department, we adopt values-centered, data-driven, and language-driven approaches to understanding a fundamental set of sociotechnical problems. Namely, what it means to be human beings -- people -- deserving of agency, safety, and dignity in an era characterized by rapid and large-scale technological change. Our work is dedicated to understanding the short- and long-term impacts that digital cultures have on people's everyday lives. We do work in applied areas like privacy, safety, and AI. We also do work in theoretical areas like ontology and textuality. But more than merely understanding the problems we study, we are motivated by a desire to leave this place -- our shared world -- a little better than we found it.
 
 <!-- See the demo website for instructions:
 
