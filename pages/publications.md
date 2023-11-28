@@ -35,7 +35,7 @@ To remove this page, you need to:
 
 <!--- Here Created List for each of the tag that will consist the publications --->
 
-<ul id="List_All" style="display: none;">
+<ul id="List_All" style="display: block;">
      <li>
         <strong>Seberger, J. S.</strong>, Choung, H., and David, P. (2023). 
         <em><a href="https://doi.org/10.1007/978-3-031-42286-7_15">Problematizing “Empowerment” in HCAI.</a></em>
