@@ -4,8 +4,7 @@
   # role: Director # Will appear next to name
   image: assets/theme/images/afsaneh-razi-web.jpeg # Can be external link
   description: > # Can be Markdown
-    Assistant professor<br>
-    Drexel University<br>
+    Assistant Professor<br>
     Research Interests: HCI, Social Computing, AI/ML, Privacy, and Online Safety<br>
 
   # orcid: 0000-0000-0000-0000
@@ -21,8 +20,7 @@
   # role: Director
   image: assets/theme/images/Shadi-Rezapour.jpg
   description: >
-    Assistant professor<br>
-    Drexel University<br>
+    Assistant Professor<br>
     Research Interests: Computational Social Science and Natural Language Processing (NLP)<br>
 
   googlescholar: b6UNLaAAAAAJ
@@ -37,8 +35,7 @@
   # role: Director
   image: assets/theme/images/John-Seberger.jpg
   description: >
-    Assistant professor<br>
-    Drexel University<br>
+    Assistant Professor<br>
     Research Interests: HCI, Informatics, Privacy<br>
 
   googlescholar: 6AkP0EcAAAAJ
