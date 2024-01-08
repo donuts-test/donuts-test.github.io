@@ -17,7 +17,7 @@ To remove this page, you need to:
 ## Publications
 
 <div style="width: 100%; text-align: center;">
-    <button id="Button_Youth" style="margin-top: 10px; margin-bottom: 10px;" onclick="executePython('Youth')">Youth</button>
+    <button id="Button_Youth" style="margin-top: 10px; margin-bottom: 10px;">Youth</button>
     
 </div>
 
