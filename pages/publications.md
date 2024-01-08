@@ -25,10 +25,5 @@ onclick="executePython('Youth')>Youth</button>
 
 </div>
 
-<script>
 
-function executePython(Tag):
-    window.open('file:///path/to/your/run_script.bat');
-
-</script>
 
