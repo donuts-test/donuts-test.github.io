@@ -1,11 +1,11 @@
 name: test data up
 on:
   schedule: 
-    - cron: "*/7 * * * *"
+    - cron: "*/6 * * * *"
 jobs:
   report:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Echoing something
-      run: echo "🎉 The job was automatically triggered"
+      - uses: actions/checkout@v2
+      - name: Echoing something
+        run: echo "🎉 The job was automatically triggered"
