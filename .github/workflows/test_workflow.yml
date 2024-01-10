@@ -1,10 +1,10 @@
-- name: test data up
+name: test data up
 on:
   schedule: 
-    cron: * * * * *
+    - cron: "*/7 * * * *"
 jobs:
   report:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: echo "🎉 The job was automatically triggered"
+      run: echo "🎉 The job was automatically triggered"
