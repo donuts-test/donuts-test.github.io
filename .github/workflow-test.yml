@@ -1,9 +1,0 @@
-- name: test data up
-on:
-  schedule: 
-    cron: * * * * *
-jobs:
-  report:
-    runs-on: ubuntu-latest
-    steps:
-    - run: echo "🎉 The job was automatically triggered"
