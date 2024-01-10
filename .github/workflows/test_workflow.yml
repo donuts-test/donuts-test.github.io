@@ -7,4 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Echoing something
       run: echo "🎉 The job was automatically triggered"
