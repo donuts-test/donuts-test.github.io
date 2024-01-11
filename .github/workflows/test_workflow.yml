@@ -15,5 +15,5 @@ jobs:
       - name: install dependancies
         run: | 
           pip install pyyaml pandas
-      - name: Echoing something
-        run: echo "🎉 The job was automatically triggered"
+      - name: Run python file
+        run: python update_data.py
