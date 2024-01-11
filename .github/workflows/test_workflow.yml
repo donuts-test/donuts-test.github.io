@@ -13,7 +13,7 @@ jobs:
           python-version: "3.x"
 
       - name: install dependancies
-        run: |
+        run: | 
           pip install gspread pyyaml
       - name: Echoing something
         run: echo "🎉 The job was automatically triggered"
