@@ -17,3 +17,11 @@ jobs:
           pip install pyyaml pandas
       - name: Run python file
         run: python update_data.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'donuts-test'
+          git config --global user.email 'elhamcolabpro@gmail.com'
+          git add .
+          git commit -m 'Update data from Google Sheet'
+          git push
