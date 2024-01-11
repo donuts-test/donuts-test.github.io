@@ -24,4 +24,4 @@ jobs:
           git config --global user.email 'elhamcolabpro@gmail.com'
           git add .
           git commit -m 'Update data from Google Sheet'
-          git push
+          git push origin head
