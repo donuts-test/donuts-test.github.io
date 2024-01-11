@@ -1,11 +1,19 @@
 name: test data up
 on:
   schedule: 
-    - cron: "6 * * * *"
+    - cron: "*/6 * * * *"
 jobs:
   report:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Setup Python
+      - uses: actions/setup-python@v2
+      - with:
+          python-version: "3.x"
+
+      - name: install dependancy
+        run: |
+          pip install gspread pyyaml
       - name: Echoing something
         run: echo "🎉 The job was automatically triggered"
