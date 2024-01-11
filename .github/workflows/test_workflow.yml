@@ -20,10 +20,10 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name 'donuts-test'
-          git config --global user.email 'elhamcolabpro@gmail.com'
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add .
-          git commit -m 'Update data from Google Sheet' --allow-empty
-          git push origin head
+          git commit -m "Update data"
+          git push
 
 
