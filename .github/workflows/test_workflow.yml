@@ -15,7 +15,7 @@ jobs:
           python-version: 3.8
       - name: install dependancies
         run: | 
-          pip install pyyaml pandas
+          pip install yaml pandas
       - name: Run python file
         run: |
           python update_data.py
