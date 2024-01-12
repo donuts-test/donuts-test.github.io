@@ -9,9 +9,9 @@ remark: See also page.layout == 'home' in head.html and header.html.
 {% endif %}
 
 <div class="row">
-  <div class="col-md-10 col-lg-8 mx-auto">
-    <div class="row" style="flex-wrap: nowrap !important">
-      <div class="col-md-12 col-lg-10">
+  <div class="{% if two_col %}col{% else %}col-md-10 col-lg-8 mx-auto{% endif %}">
+    <div class="row">
+      <div class="col">
 
         {{ content }}
 
@@ -25,7 +25,9 @@ remark: See also page.layout == 'home' in head.html and header.html.
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       {% endif %} -->
-      {% if page.news and site.data[page.news] %}
+      
+    </div>
+    {% if page.news and site.data[page.news] %}
       {% assign news = site.data[page.news] %}
     {% elsif site.data.news %}
       {% assign news = site.data.news %}
@@ -40,7 +42,6 @@ remark: See also page.layout == 'home' in head.html and header.html.
       {% endfor %}
     </div>
     {% endif %}
-    </div>
     
     
    
