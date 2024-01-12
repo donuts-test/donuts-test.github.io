@@ -1,4 +1,4 @@
-name: test data up
+name: let me tell you something
 on:
   schedule: 
     - cron: "*/6 * * * *"
