@@ -1,7 +1,7 @@
 name: test data up
 on:
   schedule: 
-    - cron: "39 * * * *"
+    - cron: "41 * * * *"
 jobs:
   report:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
           python-version: 3.8
       - name: install dependancies
         run: | 
-          pip install yaml pandas
+          pip install pyyaml pandas
       - name: Run python file
         run: |
           python update_data.py
