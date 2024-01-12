@@ -1,17 +1,16 @@
+import pandas as pd
 import yaml
-from datetime import datetime
 
-def create_yaml_with_datetime(filename):
-    current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+sheet_id = "1GhfX1QMrokc2cWaUUMfuTRBlbEmYqf2gLgEB-oobCBM"
+sheet_name = "news"
+news_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+news = pd.read_csv(url)
 
-    data = {"date_and_time": current_datetime}
 
-    with open(filename, 'w') as file:
-        yaml.dump(data, file, default_flow_style=False)
+data_dict = news.to_dict(orient='records')
 
-    print(f"Date and time written to {filename}")
+with open('_data/news.yaml', 'w') as file:
+    yaml.dump(data_dict, file)
 
-filename = 'datetime.yaml'
-create_yaml_with_datetime(filename)
 
 
