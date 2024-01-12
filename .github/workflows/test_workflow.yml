@@ -1,7 +1,7 @@
 name: test data up
 on:
   schedule: 
-    - cron: "50 * * * *"
+    - cron: "16 * * * *"
 jobs:
   report:
     runs-on: ubuntu-latest
