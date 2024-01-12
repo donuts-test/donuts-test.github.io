@@ -24,8 +24,11 @@ jobs:
         run: python update_data.py
       - name: Commit and push changes
         run: |
+          echo "config"
           git config user.name github-actions
           git config user.email github-actions@github.com
+          echo "add"
+          echo ${{ secrets.REPO_TOKEN }}
           git add .
           git commit -m "Update data"
           git push origin main
