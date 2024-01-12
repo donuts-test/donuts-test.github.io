@@ -10,10 +10,10 @@
   color: $white;
   margin-bottom: 2rem;
   // padding: 2rem 1rem;
-  padding-top: 7rem;
+  padding-top: 6rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-bottom: 2rem;
+  // padding-bottom: 2rem;
   position: relative; // To contain overlay
   text-align: center;
 
@@ -23,12 +23,12 @@
 
   &.bg-no-image {
     // background-color: $secondary;
-    background-color: #032c58;
+    background-color:rgb(248,204,76);
   }
 
   // Overlay
   &.bg-image:before {
-    background-image: linear-gradient(rgba($dark, 0.1), rgba($dark, 0.9));
+    background-image: rgb(248,204,76);
     // background-color: #032c58;
     content: "";
     left: 0;
@@ -49,7 +49,7 @@
   }
   
   h1 {
-    $header-h1: 3rem;
+    $header-h1: 5rem;
     font-size: $header-h1;
     font-weight: 800;
 
@@ -64,7 +64,7 @@
   }
 
   .lead {
-    font-size: ($lead-font-size * 1.1);
+    font-size: ($lead-font-size * 2.5);
   }
 
   .meta {
