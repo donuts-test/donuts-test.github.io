@@ -19,15 +19,15 @@ jobs:
 
       - name: install dependancies
         run: | 
-          echo "yolololololo"
+          echo ""::debug::let me tell you something"
           pip install pyyaml pandas
       - name: Run python file
         run: |
-          echo "yolololololo"
+          echo ""::debug::let me tell you something, let me tell you something"
           python update_data.py
       - name: Commit and push changes
         run: |
-          echo "yolololololo"
+          echo ""::debug::let me tell you something, let me tell you something, let me tell you something"
           git config user.name github-actions
           git config user.email github-actions@github.com
           echo "add"
