@@ -1,6 +1,6 @@
 import pandas as pd
 import yaml
-import datatime
+import datetime
 
 sheet_id = "1GhfX1QMrokc2cWaUUMfuTRBlbEmYqf2gLgEB-oobCBM"
 sheet_name = "news"
