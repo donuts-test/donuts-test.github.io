@@ -8,6 +8,9 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v2
+      - name: Echoing something
+        run: echo "let me tell you something"
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.REPO_TOKEN }}
@@ -16,22 +19,19 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: 3.8
-
       - name: install dependancies
         run: | 
-          echo ""::debug::let me tell you something"
           pip install pyyaml pandas
+      - uses: actions/checkout@v2
+      - name: Echoing something
+        run: echo "LET ME TELL YOU SOMETHING"
       - name: Run python file
         run: |
-          echo ""::debug::let me tell you something, let me tell you something"
           python update_data.py
       - name: Commit and push changes
         run: |
-          echo ""::debug::let me tell you something, let me tell you something, let me tell you something"
           git config user.name github-actions
           git config user.email github-actions@github.com
-          echo "add"
-          echo ${{ secrets.REPO_TOKEN }}
           git add .
           git commit -m "Update data"
           git push origin main
