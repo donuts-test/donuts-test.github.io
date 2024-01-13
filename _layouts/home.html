@@ -7,7 +7,13 @@ remark: See also page.layout == 'home' in head.html and header.html.
 {% if site.tweets_on_home and site.social.twitter %}
   {% assign two_col = true %}
 {% endif %}
-
+<div class="petite-intro">
+  <p>
+    Hey there!<span class="wave">👋</span>
+  </p>
+  We are the DONUTS!
+</div>
+<img class="huge-logo" src="/assets/theme/images/logo.png">
 <div class="row">
   <div class="{% if two_col %}col{% else %}col-md-10 col-lg-8 mx-auto{% endif %}">
     <div class="row">
@@ -17,6 +23,26 @@ remark: See also page.layout == 'home' in head.html and header.html.
 
       </div>
 
+      {% if two_col %}
+    
+      {% if page.news and site.data[page.news] %}
+        {% assign news = site.data[page.news] %}
+      {% elsif site.data.news %}
+        {% assign news = site.data.news %}
+      {% endif %}
+      {% if site.posts_on_home > 0 %}
+      <h1 style="">NEWS</h1>
+
+      <div class="col-lg-4 cards">
+        {% for item in news limit:site.posts_on_home %}
+          <!-- <div class="col-md-4  col-lg-4"> -->
+            {% include card.html %}
+          <!-- </div> -->
+        {% endfor %}
+      </div>
+      {% endif %}
+      </div>
+    {% endif %}
       <!-- {% if two_col %}
         <div class="col-lg-4">
           <a class="twitter-timeline" data-height="500" data-link-color="{{ site.colors.links }}" href="https://twitter.com/{{ site.social.twitter }}?ref_src=twsrc%5Etfw">
@@ -24,24 +50,9 @@ remark: See also page.layout == 'home' in head.html and header.html.
           </a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
-      {% endif %} -->
+      {% endif %}  -->
       
-    </div>
-    {% if page.news and site.data[page.news] %}
-      {% assign news = site.data[page.news] %}
-    {% elsif site.data.news %}
-      {% assign news = site.data.news %}
-    {% endif %}
-    {% if site.posts_on_home > 0 %}
-    <div class="cards mt-3">
-      <h4>NEWS</h4>
-      {% for item in news limit:site.posts_on_home %}
-        <div class="col-md-4  col-lg-4">
-          {% include card.html %}
-        </div>
-      {% endfor %}
-    </div>
-    {% endif %}
+    
     
     
    
