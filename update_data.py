@@ -1,5 +1,6 @@
 import pandas as pd
 import yaml
+import datetime
 
 sheet_id = "1GhfX1QMrokc2cWaUUMfuTRBlbEmYqf2gLgEB-oobCBM"
 sheet_name = "news"
@@ -13,4 +14,7 @@ with open('_data/news.yml', 'w') as file:
     yaml.dump(data_dict, file)
 
 
+
+with open('datetime.yml', 'w') as file:
+    yaml.dump(datetime.datetime.now(), file)
 
