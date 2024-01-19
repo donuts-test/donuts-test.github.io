@@ -15,12 +15,12 @@ jobs:
           python-version: 3.8
       - name: install dependancies
         run: | 
-          pip install pyyaml pandas
+          pip install pyyaml pandas numpy
       - name: Run python file
         run: |
-          python scripts/update_data.py
-          python scripts/update_publications.py
-          python scripts/update_team.py
+          python update_data.py
+          python update_publications.py
+          python update_team.py
       - name: Commit and push changes
         run: |
           git config user.name github-actions
