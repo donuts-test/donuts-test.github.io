@@ -3,110 +3,19 @@ layout: default
 description: Template for team page.
 ---
 
+
 {% if page.team and site.data[page.team] %}
+  {% assign phdstudents = site.data[page.phdstudents] %}
   {% assign directors = site.data[page.directors] %}
-  {% assign phds = site.data[page.phds] %}
 {% elsif site.data.team %}
-  {% assign directors = site.data.directors %}
-  {% assign phds = site.data.phds %}
+  {% assign phdstudents = site.data[page.phdstudents] %}
+  {% assign directors = site.data[page.directors] %}
 {% endif %}
-
-<h2>Directors</h2>
-
-{% for member in directors %}
-  <div class="col-md-4 col-lg-3 col-sm-6 team-member">
-    <div class="member-container" style="text-align: center;">
-      <div class="flex-shrink-0 mx-auto">
-        {% if member.image %}
-          <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="img-fluid">
-        {% endif %}
-      </div>
-      <div>
-        {% if member.website %}
-          <a href="{{ member.website }}">
-            <h5 id="{{ member.name | strip | url_encode }}">
-              {{ member.name }}
-              {% if member.role %}
-                <small class="text-muted">| {{ member.role }}</small>
-              {% endif %}
-            </h5>
-          </a>
-        {% else %}
-          <h5 id="{{ member.name | strip | url_encode }}">
-            {{ member.name }}
-            {% if member.role %}
-              <small class="text-muted">| {{ member.role }}</small>
-            {% endif %}
-          </h5>
-        {% endif %}
-
-        {{ member.description | markdownify }}
-
-        <ul class="list-inline">
-          {% if member.email %}
-            <li class="list-inline-item">
-              <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
-            </li>
-          {% endif %}
-
-          {% if member.orcid %}
-            <li class="list-inline-item">
-              <a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid"></i></a>
-            </li>
-          {% endif %}
-
-          {% if member.researchgate %}
-            <li class="list-inline-item">
-              <a href="https://researchgate.net/profile/{{ member.researchgate }}"><i class="ai ai-researchgate"></i></a>
-            </li>
-          {% endif %}
-          
-          {% if member.googlescholar %}
-            <li class="list-inline-item">
-              <a href="https://scholar.google.com/citations?user={{ member.googlescholar }}"><i class="ai ai-google-scholar"></i></a>
-            </li>
-          {% endif %}
-
-          {% if member.twitter %}
-            <li class="list-inline-item">
-              <a href="https://twitter.com/{{ member.twitter }}"><i class="fab fa-twitter"></i></a>
-            </li>
-          {% endif %}
-
-          {% if member.youtube %}
-            <li class="list-inline-item">
-              <a href="https://www.youtube.com/c/{{ member.youtube }}"><i class="fab fa-youtube"></i></a>
-            </li>
-          {% endif %}
-
-          {% if member.mastodon %}
-            <li class="list-inline-item">
-              <a href="{{ member.mastodon }}"><i class="fab fa-mastodon"></i></a>
-            </li>
-          {% endif %}
-
-          {% if member.github %}
-            <li class="list-inline-item">
-              <a href="https://github.com/{{ member.github }}"><i class="fab fa-github"></i></a>
-            </li>
-          {% endif %}
-
-          {% if member.linkedin %}
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a>
-            </li>
-          {% endif %}
-
-        </ul>
-      </div>
-    </div>
-  </div>
-{% endfor %}
 
 <h2>Ph.D. Students</h2>
 
-{% for member in phds %}
-  <div class="col-md-4 col-lg-3 col-sm-6 team-member">
+{% for member in phdstudents %}
+<div class="col-md-4 col-lg-3 col-sm-6 team-member">
     <div class="member-container" style="text-align: center;">
       <div class="flex-shrink-0 mx-auto">
         {% if member.image %}
@@ -152,7 +61,98 @@ description: Template for team page.
               <a href="https://researchgate.net/profile/{{ member.researchgate }}"><i class="ai ai-researchgate"></i></a>
             </li>
           {% endif %}
-          
+
+          {% if member.googlescholar %}
+            <li class="list-inline-item">
+              <a href="https://scholar.google.com/citations?user={{ member.googlescholar }}"><i class="ai ai-google-scholar"></i></a>
+            </li>
+          {% endif %}
+
+          {% if member.twitter %}
+            <li class="list-inline-item">
+              <a href="https://twitter.com/{{ member.twitter }}"><i class="fab fa-twitter"></i></a>
+            </li>
+          {% endif %}
+
+          {% if member.youtube %}
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/c/{{ member.youtube }}"><i class="fab fa-youtube"></i></a>
+            </li>
+          {% endif %}
+
+          {% if member.mastodon %}
+            <li class="list-inline-item">
+              <a href="{{ member.mastodon }}"><i class="fab fa-mastodon"></i></a>
+            </li>
+          {% endif %}
+
+          {% if member.github %}
+            <li class="list-inline-item">
+              <a href="https://github.com/{{ member.github }}"><i class="fab fa-github"></i></a>
+            </li>
+          {% endif %}
+
+          {% if member.linkedin %}
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+<h2>Directors</h2>
+
+{% for member in directors %}
+<div class="col-md-4 col-lg-3 col-sm-6 team-member">
+    <div class="member-container" style="text-align: center;">
+      <div class="flex-shrink-0 mx-auto">
+        {% if member.image %}
+          <img src="{{ member.image | relative_url }}" alt="{{ member.name }} " class="img-fluid">
+        {% endif %}
+      </div>
+      <div>
+        {% if member.website %}
+          <a href="{{ member.website }}">
+            <h5 id="{{ member.name | strip | url_encode }}">
+              {{ member.name }}
+              {% if member.role %}
+                <small class="text-muted">| {{ member.role }}</small>
+              {% endif %}
+            </h5>
+          </a>
+        {% else %}
+          <h5 id="{{ member.name | strip | url_encode }}">
+            {{ member.name }}
+            {% if member.role %}
+              <small class="text-muted">| {{ member.role }}</small>
+            {% endif %}
+          </h5>
+        {% endif %}
+
+        {{ member.description | markdownify }}
+
+        <ul class="list-inline">
+          {% if member.email %}
+            <li class="list-inline-item">
+              <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
+            </li>
+          {% endif %}
+
+          {% if member.orcid %}
+            <li class="list-inline-item">
+              <a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid"></i></a>
+            </li>
+          {% endif %}
+
+          {% if member.researchgate %}
+            <li class="list-inline-item">
+              <a href="https://researchgate.net/profile/{{ member.researchgate }}"><i class="ai ai-researchgate"></i></a>
+            </li>
+          {% endif %}
+
           {% if member.googlescholar %}
             <li class="list-inline-item">
               <a href="https://scholar.google.com/citations?user={{ member.googlescholar }}"><i class="ai ai-google-scholar"></i></a>
