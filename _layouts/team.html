@@ -3,8 +3,13 @@ layout: default
 description: Template for team page.
 ---
 
-{% assign directors = site.data[page.directors] %}
-{% assign phds = site.data[page.phds] %}
+{% if page.team and site.data[page.team] %}
+  {% assign directors = site.data[page.directors] %}
+  {% assign phds = site.data[page.phds] %}
+{% elsif site.data.team %}
+  {% assign directors = site.data.directors %}
+  {% assign phds = site.data.phds %}
+{% endif %}
 
 <h2>Directors</h2>
 
