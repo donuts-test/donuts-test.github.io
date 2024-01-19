@@ -13,9 +13,8 @@ import yaml
 import re
 import os
 
-current_directory = os.getcwd()
-data_directory = os.path.join(current_directory, '_data')
-layout_directory = os.path.join(current_directory, '_layout')
+data_directory = '_data/'
+layout_directory = '_layout/'
 
 sheet_id = "1GhfX1QMrokc2cWaUUMfuTRBlbEmYqf2gLgEB-oobCBM"
 sheet_name = "team"
