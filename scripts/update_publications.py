@@ -93,4 +93,4 @@ tags_list = ["All", "HCI", "Trust", "Youth"] #WILL UPDATE IT LATER
 author_list =["Seberger, J. S.", "Afsaneh Razi", "Rezvaneh Rezapour"] # WILL UPDATE IT LATER
 
         
-generate_markdown('Publication List.csv', 'Publication_Trial.md', tags_list, author_list)
+generate_markdown('Publication List.csv', '../Publication.md', tags_list, author_list)
