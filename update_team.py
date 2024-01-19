@@ -14,7 +14,7 @@ import re
 import os
 
 data_directory = '_data/'
-layout_directory = '_layout/'
+layout_directory = '_layouts/'
 
 sheet_id = "1GhfX1QMrokc2cWaUUMfuTRBlbEmYqf2gLgEB-oobCBM"
 sheet_name = "team"
