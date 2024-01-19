@@ -1,7 +1,7 @@
 ---
 layout: home
 title: DONUTS  
-description: Data, Ontology, Networks, Users, Textuality, Safety
+description: Data Ontology Networks Users Textuality Safety
 # Data, Ontology, kNowledge, Users, Textuality, Safety
 permalink: /
 ---
