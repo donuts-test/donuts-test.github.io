@@ -14,9 +14,8 @@ import re
 import os
 
 current_directory = os.getcwd()
-parent_directory = os.path.dirname(current_directory)
-data_directory = os.path.join(parent_directory, '_data')
-layout_directory = os.path.join(parent_directory, '_layout')
+data_directory = os.path.join(current_directory, '_data')
+layout_directory = os.path.join(current_directory, '_layout')
 
 sheet_id = "1GhfX1QMrokc2cWaUUMfuTRBlbEmYqf2gLgEB-oobCBM"
 sheet_name = "team"
