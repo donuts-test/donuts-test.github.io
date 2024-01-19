@@ -31,7 +31,7 @@
   image: assets/theme/images/elham-aghakhani.jpg
   description: >
     Research Interests: Artificial Intelligence, Machine Learning, Natural Language Processing (NLP)<br>
-  # googlescholar: J4CgkboAAAAJ
+  googlescholar:
   # twitter: jsseberger
   # mastodon: https://mastodon.social/@mastodon_username
   github: elhamaghakhani
