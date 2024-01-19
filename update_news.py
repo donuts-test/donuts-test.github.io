@@ -10,7 +10,7 @@ news = pd.read_csv(news_url)
 
 data_dict = news.to_dict(orient='records')
 
-with open('../_data/news.yml', 'w') as file:
+with open('_data/news.yml', 'w') as file:
     yaml.dump(data_dict, file)
 
 
