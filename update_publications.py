@@ -3,7 +3,10 @@ import pandas as pd
 
 def generate_markdown(csv_file, markdown_file, tags_list, specific_authors):
     # Read the CSV file into a DataFrame
-    df = pd.read_csv(csv_file)
+    sheet_id = "1GhfX1QMrokc2cWaUUMfuTRBlbEmYqf2gLgEB-oobCBM"
+    sheet_name = "publications"
+    publications_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+    df = pd.read_csv(news_url)
 
     # Initialize data_dict with an empty dictionary for each tag and 'All'
     data_dict = {tag: {} for tag in tags_list}
