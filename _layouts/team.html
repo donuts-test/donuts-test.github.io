@@ -11,7 +11,7 @@ description: Template for team page.
   {% assign phdstudents = site.data[page.phdstudents] %}
   {% assign directors = site.data[page.directors] %}
 {% endif %}
-
+{% print(phdstudents) %}
 <h2>Ph.D. Students</h2>
 
 {% for member in phdstudents %}
