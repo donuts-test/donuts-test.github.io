@@ -1,5 +1,7 @@
-- description: "> # Can be Markdown\n    Assistant Professor<br>\n    Research Interests:\
-    \ HCI, Social Computing, AI/ML, Privacy, and Online Safety<br>"
+- description: > # Can be Markdown
+    Assistant Professor<br>
+    Research Interests:\
+    \ HCI, Social Computing, AI/ML, Privacy, and Online Safety<br>
   email: afsaneh.razi@drexel.edu
   googlescholar: sV43f5AAAAAJ
   image: assets/theme/images/afsaneh.jpg
@@ -7,8 +9,10 @@
   name: Dr. Afsaneh Razi
   twitter: Afsaneh_Razi
   website: https://www.afsanehrazi.com/
-- description: ">\n    Assistant Professor<br>\n    Research Interests: Computational\
-    \ Social Science and Natural Language Processing (NLP)<br>"
+- description: >
+    Assistant Professor<br>
+    Research Interests: Computational\
+    \ Social Science and Natural Language Processing (NLP)<br>
   email: shadi.rezapour@drexel.edu
   googlescholar: b6UNLaAAAAAJ
   image: assets/theme/images/shadi.jpg
@@ -16,8 +20,10 @@
   name: Dr. Shadi Rezapour
   twitter: shadi_rezapour
   website: https://www.shadirezapour.com/
-- description: ">\n    Assistant Professor<br>\n    Research Interests: HCI, Informatics,\
-    \ Privacy<br>"
+- description: >
+    Assistant Professor<br>
+    Research Interests: HCI, Informatics,\
+    \ Privacy<br>
   email: john.s.seberger@drexel.edu
   googlescholar: 6AkP0EcAAAAJ
   image: assets/theme/images/john.jpg
