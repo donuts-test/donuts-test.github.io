@@ -138,7 +138,8 @@ for header_name, file_name in zip(header_names, file_names):
   temp += [code_snippet]
 layout += temp
 
-os.remove(os.path.join(layout_directory, 'team.html'))
+if os.path.exists(os.path.join(layout_directory, 'team.html')):
+  os.remove(os.path.join(layout_directory, 'team.html'))
 with open(os.path.join(layout_directory, 'team.html'), 'w') as f:
   f.write('\n'.join(layout))
 
@@ -147,6 +148,7 @@ for header_name, file_name in zip(header_names, file_names):
   data = df.to_dict(orient='records')
   filtered_data = [{k: v for k, v in row.items() if v != ''} for row in data]
   yaml_output = yaml.dump(filtered_data, default_flow_style=False, allow_unicode=True)
-  os.remove(os.path.join(data_directory, f'{file_name}.yml'))
+  if os.path.exists(os.path.join(data_directory, f'{file_name}.yml')):
+    os.remove(os.path.join(data_directory, f'{file_name}.yml'))
   with open(os.path.join(data_directory, f'{file_name}.yml'), 'w') as f:
     f.write(yaml_output)
