@@ -22,9 +22,9 @@ team_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:c
 team = pd.read_csv(team_url)
 team = team.replace(np.nan, '')
 
-team_roles = [x.split(':')[1] for x in sorted(set(team['role']))]
-header_names = team_roles
-file_names  = [re.sub(r'[^a-zA-Z]', '', x.lower()) for x in team_roles]
+
+header_names = team['role'].unique().tolist()
+file_names  = [re.sub(r'[^a-zA-Z]', '', x.lower()) for x in team['role'].unique().tolist()]
 
 layout = []
 
@@ -145,6 +145,7 @@ with open(os.path.join(layout_directory, 'team.html'), 'w') as f:
 
 for header_name, file_name in zip(header_names, file_names):
   df = team[team['role']==header_name]
+  df = df.drop('role', axis=1)
   data = df.to_dict(orient='records')
   filtered_data = [{k: v for k, v in row.items() if v != ''} for row in data]
   yaml_output = yaml.dump(filtered_data, default_flow_style=False, allow_unicode=True)
