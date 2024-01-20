@@ -5,11 +5,11 @@ description: Template for team page.
 
 
 {% if page.team and site.data[page.team] %}
-  {% assign directors = site.data[page.directors] %}
-  {% assign phdstudents = site.data[page.phdstudents] %}
+  {% assign directors = site.data.directors %}
+  {% assign phdstudents = site.data.phdstudents %}
 {% elsif site.data.team %}
-  {% assign directors = site.data[page.directors] %}
-  {% assign phdstudents = site.data[page.phdstudents] %}
+  {% assign directors = site.data.directors %}
+  {% assign phdstudents = site.data.phdstudents %}
 {% endif %}
 
 <h2>Directors</h2>
