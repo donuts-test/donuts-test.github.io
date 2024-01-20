@@ -22,10 +22,9 @@ team_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:c
 team = pd.read_csv(team_url)
 team = team.replace(np.nan, '')
 
-team
-
-header_names = set(team['role'])
-file_names  = [re.sub(r'[^a-zA-Z]', '', x.lower()) for x in set(team['role'])]
+team_roles = [x.split(':')[1] for x in sorted(set(team['role']))]
+header_names = team_roles
+file_names  = [re.sub(r'[^a-zA-Z]', '', x.lower()) for x in team_roles]
 
 layout = []
 
