@@ -152,4 +152,4 @@ for header_name, file_name in zip(header_names, file_names):
   if os.path.exists(os.path.join(data_directory, f'{file_name}.yml')):
     os.remove(os.path.join(data_directory, f'{file_name}.yml'))
   with open(os.path.join(data_directory, f'{file_name}.yml'), 'w') as f:
-    f.write(yaml_output)
+    f.write(yaml_output.replace('"', '').replace('\\n', '\n'))
