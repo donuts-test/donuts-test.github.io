@@ -37,9 +37,9 @@ description: Template for team page.
 layout += [temp]
 
 temp = ['{% if page.team and site.data[page.team] %}']
-temp += [f"  {{% assign {x} = site.data[page.{x}] %}}" for x in file_names]
+temp += [f"  {{% assign {x} = site.data.{x} %}}" for x in file_names]
 temp += ['{% elsif site.data.team %}']
-temp += [f"  {{% assign {x} = site.data[page.{x}] %}}" for x in file_names]
+temp += [f"  {{% assign {x} = site.data.{x} %}}" for x in file_names]
 temp += ["{% endif %}"]
 layout += temp
 
