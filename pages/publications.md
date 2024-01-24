@@ -75,12 +75,4 @@ Shubhanshu Mishra, <strong>Rezvaneh Rezapour</strong>, and Jana Diesner. <em> In
 <h2>2021</h2>
 <strong>Seberger, J. S.</strong> <em>Reconsidering the user in IoT: the subjectivity of things</em> Personal & Ubiquitous Computing. <a href="https://doi.org/10.1007/s00779-020-01513-0"><em>https://doi.org/10.1007/s00779-020-01513-0</em></a> <br><br><h2>2020</h2>
 <strong>Seberger, J. S.</strong> & Bowker, G. <em>Humanistic Infrastructure Studies: Hyper-Functionality and the Experience of the Absurd</em> Information, Communication and Society. <a href="https://doi.org/10.1080/1369118X.2020.1726985"><em>https://doi.org/10.1080/1369118X.2020.1726985</em></a> <br><br></div>
-<script>
-function showContent(id) {
-  var contents = document.getElementsByClassName('content');
-  for (var i = 0; i < contents.length; i++) {
-    contents[i].style.display = 'none';
-  }
-  document.getElementById(id).style.display = 'block';
-}
-</script>
+
