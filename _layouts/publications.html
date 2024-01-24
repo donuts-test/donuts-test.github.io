@@ -10,7 +10,7 @@ description: Default template for pages and posts, with contained width.
     {{ content }}
 
     {% if page.comments %}
-      <div id="disqus_thread"></div>
+<!--       <div id="disqus_thread"></div> -->
 <!--       <script>
         // Configuration variables: https://disqus.com/admin/universalcode/#configuration-variables
         var disqus_config = function () {
@@ -25,9 +25,7 @@ description: Default template for pages and posts, with contained width.
       </script> -->
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
     {% endif %}
-  </div>
-</div>
-<script>
+    <script>
 function showContent(id) {
   var contents = document.getElementsByClassName('content');
   for (var i = 0; i < contents.length; i++) {
@@ -36,3 +34,6 @@ function showContent(id) {
   document.getElementById(id).style.display = 'block';
 }
 </script>
+  </div>
+</div>
+
