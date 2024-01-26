@@ -78,7 +78,7 @@ Shubhanshu Mishra, <strong>Rezvaneh Rezapour</strong>, and Jana Diesner. <em> In
 <script>
 function showContent(id) {
   var contentpubs = document.getElementsByClassName('contentpub');
-  for (var i = 0; i < contents.length; i++) {
+  for (var i = 0; i < contentpubs.length; i++) {
     contentpubs[i].style.display = 'none';
   }
   document.getElementById(id).style.display = 'block';
