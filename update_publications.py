@@ -42,7 +42,7 @@ def generate_markdown(csv_file, markdown_file, tags_list, specific_authors):
 #         md_file.write(
 #                         """
 #                         ---
-#                         layout: publications
+#                         layout: base
 #                         title: publications
 
 #                         permalink: /publications/
