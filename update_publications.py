@@ -64,7 +64,7 @@ def generate_markdown(csv_file, markdown_file, tags_list, specific_authors):
 
         # Content sections for each tag
         for tag, years_dict in data_dict.items():
-            md_file.write(f"<div id='{tag}' class='content' style='display:none;'>\n")
+            md_file.write(f"<div id='{tag}' class='contentpub' style='display:none;'>\n")
             
             # Sort and iterate through years
             for year in sorted(years_dict.keys(), reverse=True):
@@ -79,7 +79,7 @@ def generate_markdown(csv_file, markdown_file, tags_list, specific_authors):
         # Adding JavaScript for toggle functionality
         md_file.write("<script>\n")
         md_file.write("function showContent(id) {\n")
-        md_file.write("  var contents = document.getElementsByClassName('content');\n")
+        md_file.write("  var contents = document.getElementsByClassName('contentpub');\n")
         md_file.write("  for (var i = 0; i < contents.length; i++) {\n")
         md_file.write("    contents[i].style.display = 'none';\n")
         md_file.write("  }\n")
@@ -93,4 +93,4 @@ tags_list = ["All", "HCI", "Trust", "Youth"] #WILL UPDATE IT LATER
 author_list =["Seberger, J. S.", "Afsaneh Razi", "Rezvaneh Rezapour"] # WILL UPDATE IT LATER
 
         
-generate_markdown('Publication List.csv', 'pages/Publication.md', tags_list, author_list)
+generate_markdown('Publication List.csv', 'pages/publications.md', tags_list, author_list)
