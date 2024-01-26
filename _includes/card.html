@@ -25,9 +25,7 @@
     <div class="card-text">
       <h6>
       {% if item.description %}
-        <a class="stretched-link" href="{{ item.url }}>
-        {{ item.description | markdownify | strip_html | truncatewords: 20 }}
-        </a>
+        <a class="stretched-link" href="{{ item.url }}>{{ item.description | markdownify | strip_html | truncatewords: 20 }}</a>
       {% else %}
         {{ item.excerpt | strip_html | truncatewords: 20 }}
       {% endif %}
