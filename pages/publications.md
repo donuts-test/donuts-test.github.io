@@ -77,6 +77,7 @@ Shubhanshu Mishra, <strong>Rezvaneh Rezapour</strong>, and Jana Diesner. <em> In
 <strong>Seberger, J. S.</strong> & Bowker, G. <em>Humanistic Infrastructure Studies: Hyper-Functionality and the Experience of the Absurd</em> Information, Communication and Society. <a href="https://doi.org/10.1080/1369118X.2020.1726985"><em>https://doi.org/10.1080/1369118X.2020.1726985</em></a> <br><br></div>
 <script>
 function showContent(id) {
+  console.log('heyyyyyyyyyyyyyyy')
   var contentpubs = document.getElementsByClassName('contentpub');
   for (var i = 0; i < contentpubs.length; i++) {
     contentpubs[i].style.display = 'none';
