@@ -24,7 +24,7 @@
 
     <div class="card-text">
       <h6>
-      {% if item.description %}
+      {% if item.title %}
         <a target="_blank" class="stretched-link" href="{{ item.url }}">
           {{ item.title | markdownify | strip_html | truncatewords: 20 }}
           </a>
