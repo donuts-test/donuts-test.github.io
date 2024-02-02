@@ -18,9 +18,9 @@
       <a class="stretched-link" href="{{ item.url | relative_url }}" target="_blank">{{ item.title }}</a>
     </h5>
 
-    {% if item.collection == 'posts' %}
+<!--     {% if item.collection == 'posts' %} -->
       <h6 class="card-subtitle">{{ item.date | date: '%B %d, %Y' }}</h6>
-    {% endif %}
+<!--     {% endif %} -->
 
     <div class="card-text">
       {% if item.description %}
