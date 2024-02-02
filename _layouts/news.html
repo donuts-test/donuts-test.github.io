@@ -3,6 +3,12 @@ layout: base
 description: Template for a list of posts as cards, with full width.
 ---
 
+{% if page.news and site.data[page.news] %}
+        {% assign news = site.data[page.news] %}
+      {% elsif site.data.news %}
+        {% assign news = site.data.news %}
+      {% endif %}
+
 <div class="row">
   <div class="{% if two_col %}col{% else %}col-md-10 col-lg-8 mx-auto{% endif %}">
     <div class="row">
@@ -24,7 +30,7 @@ description: Template for a list of posts as cards, with full width.
     
     {% if site.posts_on_home > 0 %}
       <div class="row cards mt-4">
-        {% for item in site.posts limit:site.posts_on_home %}
+        {% for item in news limit:site.posts_on_home %}
           <div class="col-md-6{% if two_col %} col-lg-4{% endif %}">
             {% include card.html %}
           </div>
