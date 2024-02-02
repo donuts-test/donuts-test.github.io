@@ -5,7 +5,7 @@
 {% endif %}
 
 <div class="card" data-tags="{% for tag in item.tags %}{{ tag | downcase | strip }}|{% endfor %}">
-  <a target="_blank" href="{{ item.url | relative_url }}">
+  <a  href="{{ item.url | relative_url }}" target="_blank">
     {% if item.background %}
       <img class="card-img-top" src="{{ background | relative_url }}" alt="Background image">  
     {% else %}
@@ -15,7 +15,7 @@
 
   <div class="card-body position-relative">
     <h5 class="card-title">
-      <a class="stretched-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      <a class="stretched-link" href="{{ item.url | relative_url }}" target="_blank">{{ item.title }}</a>
     </h5>
 
     {% if item.collection == 'posts' %}
