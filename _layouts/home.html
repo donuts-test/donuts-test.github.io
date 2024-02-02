@@ -4,9 +4,15 @@ description: Template for homepage.
 remark: See also page.layout == 'home' in head.html and header.html.
 ---
 
-{% if site.tweets_on_home and site.social.twitter %}
-  {% assign two_col = true %}
-{% endif %}
+
+
+{% if page.news and site.data[page.news] %}
+        {% assign news = site.data[page.news] %}
+      {% elsif site.data.news %}
+        {% assign news = site.data.news %}
+      {% endif %}
+
+
 <!-- <div class="petite-intro">
   <p>
     Hey there!<span class="wave">👋</span>
@@ -14,6 +20,9 @@ remark: See also page.layout == 'home' in head.html and header.html.
   We are the DONUTS!
 </div> -->
 <img class="huge-logo" style="z-index: 1000;" src="/assets/theme/images/logo.png">
+
+
+
 <div class="row">
   <div class="{% if two_col %}col{% else %}col-md-10 col-lg-8 mx-auto{% endif %}">
     <div class="row">
@@ -23,19 +32,19 @@ remark: See also page.layout == 'home' in head.html and header.html.
 
       </div>
 
-      {% if two_col %}
+<!--       {% if two_col %}
         <div class="col-lg-4">
           <a class="twitter-timeline" data-height="500" data-link-color="{{ site.colors.links }}" href="https://twitter.com/{{ site.social.twitter }}?ref_src=twsrc%5Etfw">
             Tweets by {{ site.social.twitter }}
           </a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
-      {% endif %}
+      {% endif %} -->
     </div>
     
     {% if site.posts_on_home > 0 %}
       <div class="row cards mt-4">
-        {% for item in site.posts limit:site.posts_on_home %}
+        {% for item in news limit:site.posts_on_home %}
           <div class="col-md-6{% if two_col %} col-lg-4{% endif %}">
             {% include card.html %}
           </div>
