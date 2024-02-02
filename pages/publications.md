@@ -1,8 +1,3 @@
----
-layout: publications
-title: Publications
-permalink: /publications/
----
 <button onclick="showContent('All')">All</button>
 <button onclick="showContent('HCI')">HCI</button>
 <button onclick="showContent('Trust')">Trust</button>
