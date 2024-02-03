@@ -1,14 +1,8 @@
----
-layout: publications
-title: Publications
-permalink: /publications/
----
-
 <button onclick="showContent('All')">All</button>
 <button onclick="showContent('HCI')">HCI</button>
 <button onclick="showContent('Trust')">Trust</button>
 <button onclick="showContent('Youth')">Youth</button>
-<div id='All' class='contentpub' style='display:block;'>
+<div id='All' class='contentpub' style='display:none;'>
 <h2>2024</h2>
 Author : <strong>Afsaneh Razi</strong>, <strong>Seberger, J. S.</strong>, Nurun Naher, Munmun de Choudhury, Pamela J. Wisniewski. <br>
 Title : Toward Trauma-Informed Research Practices with Youth in HCI: Caring for Participants and Research Assistants When Studying Sensitive Topics.<br>
