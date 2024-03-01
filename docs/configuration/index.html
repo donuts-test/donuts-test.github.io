@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <title>Configuration - </title>
+  
+
+   
+  
+  
+  
+
+  
+  
+    <meta name="description" content="Overview of the configuration options in Petridish.">
+  
+  
+  
+    <meta name="author" content="DONUTS Colab">
+  
+  
+
+  <meta property="og:url" content="/docs/configuration/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Configuration">
+  
+    <meta property="og:description" content="Overview of the configuration options in Petridish.">
+  
+  
+  
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507477338202-487281e6c27e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkwfHxiaXJkc3xlbnwwfDB8MHx8&auto=format&fit=crop&crop=top&w=1200&h=600&q=80">
+  
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!-- Bootstrap CSS is included in main.css -->
+  <link rel="stylesheet" href="/assets/theme/css/main.css">
+  <link rel="stylesheet" href="/assets/theme/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/academicons.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/pygments.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+  
+  <link rel="alternate" type="application/rss+xml" title=" - RSS feed" href="/feed.xml" >
+  <!-- Javascript libraries: loaded at top so templates can use these -->
+  <script src="/assets/theme/js/jquery.min.js"></script>
+  <script src="/assets/theme/js/popper.min.js"></script>
+  <script src="/assets/theme/js/bootstrap.min.js"></script>
+</head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-print-none" id="main-nav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      
+        <img class="me-3" src="/assets/theme/images/logo.png" alt="">
+      
+      <!--  -->
+    </a>
+    
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+        Menu <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="navbar-nav ms-auto">
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/">Home</a>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/news/">News</a>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/team/">Team</a>
+              </li>
+            
+          
+        </ul>
+      </div>
+    
+  </div>
+</nav>
+
+
+    <main>
+      
+
+  <header class="header bg-image" style="background-image: url('https://images.unsplash.com/photo-1507477338202-487281e6c27e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkwfHxiaXJkc3xlbnwwfDB8MHx8&auto=format&fit=crop&crop=top&w=1200&h=600&q=80')">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 position-relative mx-auto">
+          <h1>Configuration</h1>
+          
+          <div class="lead"><p>Overview of the configuration options in Petridish.</p>
+</div>
+          
+          
+
+          <div class="tags">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="caption d-print-none">
+        
+          Image by <a href="https://unsplash.com/photos/5iFZBM7qgWc">Mathew Schwartz</a>
+        
+      </div>
+    
+  </header>
+
+
+      <div class="container content">
+
+          
+        <div class="row">
+
+
+  
+  <div class="col-md-10 col-lg-3 mx-auto">
+    <div class="toc">
+      <h6>On this page</h6>
+      <ul><li><a href="#example-website">Example website</a></li><li><a href="#site-wide-configuration">Site-wide configuration</a></li><li><a href="#pages">Pages</a></li><li><a href="#organizing-pages">Organizing pages</a></li><li><a href="#home-page">Home page</a></li><li><a href="#team-page">Team page</a></li><li><a href="#archive-page">Archive page</a></li><li><a href="#blog-posts">Blog posts</a></li><li><a href="#markdown-options">Markdown options</a></li><li><a href="#navigation">Navigation</a></li><li><a href="#colors--font">Colors &amp; font</a></li><li><a href="#logo--favicon">Logo &amp; favicon</a></li><li><a href="#footer">Footer</a></li><li><a href="#edit-link">Edit link</a></li><li><a href="#testing-your-site-locally">Testing your site locally</a></li></ul>
+    </div>
+  </div>
+  
+  <div class="col-md-12 col-lg-10 order-lg-first mx-auto">
+
+    <!-- Links to the repository -->
+
+<h2 id="example-website">Example website</h2>
+
+<p>If you want to learn by example, this website uses Petridish. Browse the <a href="https://github.com/peterdesmet/petridish">Petridish repository</a> to see how things are configured.</p>
+
+<h2 id="site-wide-configuration">Site-wide configuration</h2>
+
+<p>Your site’s configuration is controlled by <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/_config.yml"><code class="language-plaintext highlighter-rouge">_config.yml</code></a>. Set at least a title and maybe some social profiles.</p>
+
+<h2 id="pages">Pages</h2>
+
+<p>Create <a href="https://jekyllrb.com/docs/pages/">pages</a> as Markdown files in your repository (e.g. <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/about.md"><code class="language-plaintext highlighter-rouge">about.md</code></a> for <a href="/about/">this page</a>).</p>
+
+<p>Pages can have the following <a href="https://jekyllrb.com/docs/front-matter/">front matter</a> (only <code class="language-plaintext highlighter-rouge">title</code> is required):</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Title for the page</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s">Description that will appear below the title in the banner</span>
+<span class="na">background</span><span class="pi">:</span> <span class="s">/assets/images/banner_background_image.jpg</span>
+<span class="na">permalink</span><span class="pi">:</span> <span class="s">/about/</span>
+<span class="na">toc</span><span class="pi">:</span> <span class="kc">false</span>
+<span class="na">comments</span><span class="pi">:</span> <span class="kc">false</span> <span class="c1"># See posts</span>
+<span class="na">published</span><span class="pi">:</span> <span class="kc">true</span> <span class="c1"># See posts</span>
+<span class="nn">---</span>
+
+<span class="s">Our project ...</span>
+
+</code></pre></div></div>
+
+<p>Pages will use <code class="language-plaintext highlighter-rouge">layout: default</code> by default.</p>
+
+<p><code class="language-plaintext highlighter-rouge">title</code> will appear on the page itself, but you can use a different (e.g. shorter) name in <a href="#navigation">navigation</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">background</code> can be a <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/home.md">local</a> or <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/about.md">remote</a> image. It will be cropped vertically. For faster page loads, reduce image sizes to less than 1MB (e.g. by reducing resolution to 72dpi and/or width to 2000px).</p>
+
+<p><code class="language-plaintext highlighter-rouge">background</code> can also be provided with attribution information:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">background</span><span class="pi">:</span>
+  <span class="na">img</span><span class="pi">:</span> <span class="s">https://images.unsplash.com/photo-1507477338202-487281e6c27e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkwfHxiaXJkc3xlbnwwfDB8MHx8&amp;auto=format&amp;fit=crop&amp;crop=top&amp;w=1200&amp;h=600&amp;q=80</span>
+  <span class="na">by</span><span class="pi">:</span> <span class="s">Mathew Schwartz</span> <span class="c1"># Creator of the image</span>
+  <span class="na">href</span><span class="pi">:</span> <span class="s">https://unsplash.com/photos/5iFZBM7qgWc</span> <span class="c1"># Link to the original source</span>
+</code></pre></div></div>
+
+<p>To add a table of content based on the h2 and h3 headers of your page (like on this configuration page), add <code class="language-plaintext highlighter-rouge">toc: true</code>. The width of the page is unaffected by the table of content. The table of content is disabled by default.</p>
+
+<p>If you only have a few pages (less than 20), organize them in a <a href="https://github.com/peterdesmet/petridish/tree/main/pages"><code class="language-plaintext highlighter-rouge">pages/</code></a> directory and set their <a href="https://jekyllrb.com/docs/permalinks/#front-matter">permalink</a>.</p>
+
+<h2 id="organizing-pages">Organizing pages</h2>
+
+<p>If your site has many pages, you can organize them in a directory structure, e.g.:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># As named files                      # As directories with index.md</span>
+<span class="s">about.md                              about/index.md</span>
+<span class="s">courses.md                            courses/</span>
+<span class="s">courses/                                index.md</span>
+  <span class="s">2021.md                               2021/</span>
+  <span class="s">2021/                                   index.md</span>
+    <span class="s">course-1.md                           course-1/index.md</span>
+    <span class="s">course-2.md                           course-2/index.md</span>
+    <span class="s">exercises.md                          exercises/index.md</span>
+  <span class="s">2022.md                               2022/</span>
+  <span class="s">2022/                                   index.md</span>
+    <span class="s">course-1.md                           course-1/index.md</span>
+    <span class="s">course-2.md                           course-2/index.md</span>
+    <span class="s">exercises.md                          exercises/index.md</span>
+</code></pre></div></div>
+
+<p>Starting the directory structure from the root of your repository has the advantage (in both approaches) that the default permalink of the pages will be their path, e.g. <code class="language-plaintext highlighter-rouge">https://example.org/courses/2022/course-1/</code>.</p>
+
+<p>To provide better access to deeper sections your site (e.g. the pages in <code class="language-plaintext highlighter-rouge">courses/2022</code>), setup a custom <a href="#navigation">navigation</a>.</p>
+
+<blockquote class="alert alert-warning">
+  <p>You could also organize pages as <a href="https://jekyllrb.com/docs/collections/">Collections</a>, but note that:</p>
+  <ul>
+    <li>Pages in a collection are not part of <code class="language-plaintext highlighter-rouge">site.pages</code>.</li>
+    <li>Pages in a collection will not use <code class="language-plaintext highlighter-rouge">layout: default</code> by default, so you need to set this in the front matter (defaults).</li>
+    <li>The <code class="language-plaintext highlighter-rouge">:path</code> placeholder of collection items <em>includes</em> the filename, while it doesn’t for pages. So <code class="language-plaintext highlighter-rouge">_my_collection/subdirectory/index.md</code> with permalink <code class="language-plaintext highlighter-rouge">/:collection/:path/</code> will result in the page being served from <code class="language-plaintext highlighter-rouge">/my_collection/subdirectory/index/index.html</code>.</li>
+    <li>Defaults for custom page attributes (like <code class="language-plaintext highlighter-rouge">toc: true</code>) cannot be set as part of the collection, only as <a href="https://jekyllrb.com/docs/step-by-step/09-collections/#front-matter-defaults">front matter defaults</a>.</li>
+    <li><a href="https://jekyllrb.com/docs/collections/#custom-sorting-of-documents">Custom sorting</a> is only available in Jekyll 4.0, which is not yet supported on GitHub Pages.</li>
+  </ul>
+</blockquote>
+
+<h2 id="home-page">Home page</h2>
+
+<p>To enable options for your <a href="/">home page</a> (source <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/home.md"><code class="language-plaintext highlighter-rouge">home.md</code></a>), add the following front matter:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">layout</span><span class="pi">:</span> <span class="s">home</span>
+</code></pre></div></div>
+
+<p>In <code class="language-plaintext highlighter-rouge">_config.yml</code> you can now define:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">posts_on_home</span><span class="pi">:</span> <span class="m">3</span>                        <span class="c1"># Show x number of latest posts on homepage, can be 0</span>
+<span class="na">tweets_on_home</span><span class="pi">:</span> <span class="kc">true</span>                    <span class="c1"># Show Twitter feed of social.twitter on homepage</span>
+</code></pre></div></div>
+
+<p>For easier maintenance, move/rename your <code class="language-plaintext highlighter-rouge">index.md</code> to <code class="language-plaintext highlighter-rouge">pages/home.md</code> and set its <code class="language-plaintext highlighter-rouge">permalink</code> to <code class="language-plaintext highlighter-rouge">/</code>.</p>
+
+<h2 id="team-page">Team page</h2>
+
+<p>To enable your <a href="/team/">team page</a> (source <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/team.md"><code class="language-plaintext highlighter-rouge">team.md</code></a>), add the following front matter:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">layout</span><span class="pi">:</span> <span class="s">team</span>
+</code></pre></div></div>
+
+<p>Then create a <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/_data/team.yml"><code class="language-plaintext highlighter-rouge">_data/team.yml</code></a> file to list team members. For multiple team pages (e.g. keynote speakers at a conference), create e.g. a <code class="language-plaintext highlighter-rouge">_data/conf_2022_team.yml</code> and reference it in front matter as <code class="language-plaintext highlighter-rouge">team: conf_2022_team</code>.</p>
+
+<h2 id="archive-page">Archive page</h2>
+
+<p>To create an <a href="/blog/">overview page</a> (source <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/archive.md"><code class="language-plaintext highlighter-rouge">archive.md</code></a>) of all blog posts (i.e. an archive, news, or blog page), add the following front matter:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">layout</span><span class="pi">:</span> <span class="s">archive</span>
+</code></pre></div></div>
+
+<p>And enable post tags by repeating the permalink for your archive page in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">archive_permalink</span><span class="pi">:</span> <span class="s">/blog/</span>               <span class="c1"># Permalink of page using the archive.html layout, required when using post tags</span>
+</code></pre></div></div>
+
+<p>This will also enable an RSS feed icon in the footer. To see blog posts, you’ll have to create some. ☺️</p>
+
+<h2 id="blog-posts">Blog posts</h2>
+
+<p>Create <a href="https://jekyllrb.com/docs/posts/">posts</a> as <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title.md</code> Markdown files in the <a href="https://github.com/peterdesmet/petridish/tree/main/_posts"><code class="language-plaintext highlighter-rouge">_posts/</code></a> directory (e.g. <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/_posts/2019-07-08-dmp.md"><code class="language-plaintext highlighter-rouge">2019-07-08-dmp.md</code></a> for <a href="/blog/2019/dmp/">this post</a>).</p>
+
+<p>Posts can have the following <a href="https://jekyllrb.com/docs/front-matter/">front matter</a> (only <code class="language-plaintext highlighter-rouge">title</code> is required):</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Title</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">post:</span><span class="nv"> </span><span class="s">wrap</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">quotes</span><span class="nv"> </span><span class="s">if</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">contains</span><span class="nv"> </span><span class="s">special</span><span class="nv"> </span><span class="s">characters"</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s">Description that will appear below the title in the banner</span>
+<span class="na">background</span><span class="pi">:</span> <span class="s">/assets/images/banner_background_image.jpg</span>
+<span class="na">author</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">Author 1</span><span class="pi">,</span> <span class="nv">Author 2</span><span class="pi">]</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">Tag 1</span><span class="pi">,</span> <span class="nv">Tag 2</span><span class="pi">]</span>
+<span class="na">toc</span><span class="pi">:</span> <span class="kc">false</span> <span class="c1"># See pages</span>
+<span class="na">comments</span><span class="pi">:</span> <span class="kc">false</span>
+<span class="na">published</span><span class="pi">:</span> <span class="kc">true</span>
+<span class="nn">---</span>
+
+<span class="s">We are happy to announce ...</span>
+
+</code></pre></div></div>
+
+<p>Posts can be shown on an <a href="#archive-page">archive page</a> and on the <a href="#home-page">home page</a>.</p>
+
+<p>Posts will use <code class="language-plaintext highlighter-rouge">layout: default</code> by default.</p>
+
+<p>To enable post comments, add your site to <a href="https://disqus.com/">Disqus</a> and reference it in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">social</span><span class="pi">:</span>
+  <span class="na">disqus</span><span class="pi">:</span> <span class="s">disqus_sitename</span>               <span class="c1"># Enable Disqus comments from disqus_sitename.disqus.com</span>
+</code></pre></div></div>
+
+<p>Then add <code class="language-plaintext highlighter-rouge">comments: true</code> to each post where you want comments. Comments are disabled by default.</p>
+
+<p>To hide a post (e.g. a draft), add <a href="https://jekyllrb.com/docs/front-matter/#predefined-global-variables"><code class="language-plaintext highlighter-rouge">published: false</code></a>. Drafts can also be stored in <a href="https://jekyllrb.com/docs/posts/#drafts"><code class="language-plaintext highlighter-rouge">_drafts</code></a>, but <code class="language-plaintext highlighter-rouge">published: false</code> is easier to track in git and can be used for pages as well. Posts and pages are published by default.</p>
+
+<p>To change the permalink of all posts from the default <code class="language-plaintext highlighter-rouge">yyyy/mm/dd/title.html</code> to e.g. <code class="language-plaintext highlighter-rouge">blog/{filename}/</code> without having to add a <code class="language-plaintext highlighter-rouge">permalink</code> to each post, set a <a href="https://jekyllrb.com/docs/step-by-step/09-collections/#front-matter-defaults">front matter default</a> in <code class="language-plaintext highlighter-rouge">_config.yml</code>. Defaults can also be used to e.g. enable comments for all posts:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">defaults</span><span class="pi">:</span>
+  <span class="pi">-</span>
+    <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s2">"</span><span class="s">posts"</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">permalink</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/blog/:slug/"</span>         <span class="c1"># Use /blog/{filename}/ as permalink for all posts</span>
+      <span class="na">comments</span><span class="pi">:</span> <span class="kc">true</span>                    <span class="c1"># Enable comments for all posts</span>
+</code></pre></div></div>
+
+<h2 id="markdown-options">Markdown options</h2>
+
+<p>See the <a href="/docs/markdown/">Markdown guide</a> for an overview of the Markdown syntax you can use in pages and posts.</p>
+
+<h2 id="navigation">Navigation</h2>
+
+<p>Create a <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/_data/navigation.yml"><code class="language-plaintext highlighter-rouge">_data/navigation.yml</code></a> file and add pages in the order you want to include them in your top site navigation. You can also include dropdown menus.</p>
+
+<p>Since the top site navigation only allows for 2 levels, deeper pages are a bit harder to access. You can solve this by creating a custom top navigation for that section of the site. Taking the <code class="language-plaintext highlighter-rouge">courses/2022</code> example mentioned <a href="#organizing-pages">here</a>:</p>
+
+<ol>
+  <li>Create a separate <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/_data/custom-navigation.yml"><code class="language-plaintext highlighter-rouge">_data/course_2022_navigation.yml</code></a>.</li>
+  <li>
+    <p>Add <code class="language-plaintext highlighter-rouge">navigation: course_2022_navigation</code> to the front matter of each page or (recommended) set it as front matter default in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="na">defaults</span><span class="pi">:</span>
+   <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+       <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">courses/2022"</span>
+     <span class="na">values</span><span class="pi">:</span>
+       <span class="na">navigation</span><span class="pi">:</span> <span class="s2">"</span><span class="s">course_2022_navigation"</span>
+</code></pre></div>    </div>
+  </li>
+  <li>That section of the site will now have its <a href="/docs/custom-navigation/">own top navigation</a>. Users will always be able to go back to the main site by clicking the site title.</li>
+</ol>
+
+<h2 id="colors--font">Colors &amp; font</h2>
+
+<p>Customize colors, font type and corners in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">colors</span><span class="pi">:</span>
+  <span class="na">links</span><span class="pi">:</span> <span class="s2">"</span><span class="s">#007bff"</span>                      <span class="c1"># Color for links: use a readable color that contrasts well with dark text</span>
+  <span class="na">banner</span><span class="pi">:</span> <span class="s2">"</span><span class="s">#007bff"</span>                     <span class="c1"># Background color for page banners: use color that contrasts well with white</span>
+  <span class="na">footer</span><span class="pi">:</span> <span class="s2">"</span><span class="s">#6c757d"</span>                     <span class="c1"># Background color for footer: use color that contrasts well with white</span>
+<span class="na">font_serif</span><span class="pi">:</span> <span class="kc">true</span>                        <span class="c1"># Font type for page content: serif (default) or slightly smaller sans-serif</span>
+<span class="na">rounded_corners</span><span class="pi">:</span> <span class="kc">true</span>                   <span class="c1"># Enable (default) rounded corners on boxes and buttons</span>
+</code></pre></div></div>
+
+<h2 id="logo--favicon">Logo &amp; favicon</h2>
+
+<p>Add a logo by uploading it to <code class="language-plaintext highlighter-rouge">assets/</code> and referencing it in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">logo</span><span class="pi">:</span> <span class="s">/assets/images/logo.png</span>           <span class="c1"># Logo in navbar, will be displayed with 30px height</span>
+</code></pre></div></div>
+
+<p>Add a favicon by adding a <code class="language-plaintext highlighter-rouge">favicon.ico</code> file to the root of your repository.</p>
+
+<h2 id="footer">Footer</h2>
+
+<p>Add social icons to the footer by adding your (project’s) social profiles in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">social</span><span class="pi">:</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">name@example.com</span>
+  <span class="na">twitter</span><span class="pi">:</span> <span class="s">twitter_username</span>
+  <span class="na">github</span><span class="pi">:</span> <span class="s">github_username</span>               <span class="c1"># Can also be a github_username/repository</span>
+  <span class="na">mastodon</span><span class="pi">:</span> <span class="s">https://mastodon.social/@mastodon_username</span>
+  <span class="na">facebook</span><span class="pi">:</span> <span class="s">https://www.facebook.com/groups/group_id/</span>
+</code></pre></div></div>
+
+<p>Create a <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/_data/footer.yml"><code class="language-plaintext highlighter-rouge">_data/footer.yml</code></a> file to further customize your footer with text, links and/or a disclaimer.</p>
+
+<h2 id="edit-link">Edit link</h2>
+
+<p>Invite contributions by adding an “edit this page” link in the footer, in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">github_edit</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div>
+
+<p>This assumes your repository is public, with <code class="language-plaintext highlighter-rouge">main</code> as default branch. Use <code class="language-plaintext highlighter-rouge">github_edit: my_branch</code> if you use another branch. You will be able to directly edit the file, users without rights will have to fork your repository and create a pull request.</p>
+
+<h2 id="testing-your-site-locally">Testing your site locally</h2>
+
+<p>All the above settings can be directly made in your GitHub repository in your browser, but especially during setup it is more convenient to make those changes locally, render your site locally and then push your changes to GitHub.</p>
+
+<ol>
+  <li><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">Clone your repository</a> to your computer.</li>
+  <li>
+    <p>Place a <a href="https://github.com/peterdesmet/petridish/blob/main/Gemfile"><code class="language-plaintext highlighter-rouge">Gemfile</code></a> in your repository root, with the content:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> gem "github-pages", group: :jekyll_plugins
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Place a <code class="language-plaintext highlighter-rouge">.gitignore</code> in your repository root, with the content:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> # Jekyll
+ _site/
+ .sass-cache/
+ .jekyll-cache/
+ .jekyll-metadata
+</code></pre></div>    </div>
+  </li>
+  <li><a href="https://jekyllrb.com/docs/#instructions">Install Jekyll</a>. Skip the step to make a new site.</li>
+  <li>Serve your site with <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code>.</li>
+  <li>Make changes and see the effect at <code class="language-plaintext highlighter-rouge">http://localhost:4000/</code>.</li>
+  <li>Push your changes to GitHub.</li>
+</ol>
+
+
+    
+  </div>
+</div>
+
+
+      </div>
+    </main>
+
+    <footer class="d-print-none">
+  <div class="container">
+    <div class="row">
+      
+        <div class="col-lg">
+          <ul class="list-inline">
+            
+              <li class="list-inline-item">
+                <a href="mailto:name@example.com">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+              <li class="list-inline-item">
+                <a href="https://twitter.com/donuts-colab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+              <li class="list-inline-item">
+                <a rel="me" href="https://mastodon.social/@mastodon_username">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+
+            
+              <li class="list-inline-item">
+                <a href="https://github.com/github_username">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+              <li class="list-inline-item">
+                <a href="/feed.xml">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      
+
+      
+        <div class="col-lg">
+          
+            <p>© 2023 DONUTS Colab</p>
+          
+          
+          
+        </div>
+      
+    </div>
+
+    
+  </div>
+</footer>
+
+<!-- <script src="/assets/theme/js/anchor.min.js"></script>
+<script>
+  // Show anchors when hovering over headings, using anchor.js
+  (function () {
+    const headings = ".content h2[id], .content h3[id], .content h4[id], .content h5[id], .content h6[id]";
+    anchors.options = { placement: "right" };
+    anchors.add(headings);
+  })();
+</script>
+ -->
+
+
+  </body>
+</html>
+            
+            

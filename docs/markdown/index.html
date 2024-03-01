@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <title>Markdown - </title>
+  
+
+   
+  
+  
+  
+
+  
+  
+    <meta name="description" content="You write your content in Markdown. This page shows how it is rendered by Petridish.">
+  
+  
+  
+    <meta name="author" content="DONUTS Colab">
+  
+  
+
+  <meta property="og:url" content="/docs/markdown/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Markdown">
+  
+    <meta property="og:description" content="You write your content in Markdown. This page shows how it is rendered by Petridish.">
+  
+  
+  
+    <meta property="og:image" content="https://images.unsplash.com/photo-1550089479-fe0e48e7d788?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJpcmR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80">
+  
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!-- Bootstrap CSS is included in main.css -->
+  <link rel="stylesheet" href="/assets/theme/css/main.css">
+  <link rel="stylesheet" href="/assets/theme/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/academicons.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/pygments.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+  
+  <link rel="alternate" type="application/rss+xml" title=" - RSS feed" href="/feed.xml" >
+  <!-- Javascript libraries: loaded at top so templates can use these -->
+  <script src="/assets/theme/js/jquery.min.js"></script>
+  <script src="/assets/theme/js/popper.min.js"></script>
+  <script src="/assets/theme/js/bootstrap.min.js"></script>
+</head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-print-none" id="main-nav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      
+        <img class="me-3" src="/assets/theme/images/logo.png" alt="">
+      
+      <!--  -->
+    </a>
+    
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+        Menu <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="navbar-nav ms-auto">
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/">Home</a>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/news/">News</a>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/team/">Team</a>
+              </li>
+            
+          
+        </ul>
+      </div>
+    
+  </div>
+</nav>
+
+
+    <main>
+      
+
+  <header class="header bg-image" style="background-image: url('https://images.unsplash.com/photo-1550089479-fe0e48e7d788?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJpcmR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80')">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 position-relative mx-auto">
+          <h1>Markdown</h1>
+          
+          <div class="lead"><p>You write your content in <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a>. This page shows how it is rendered by Petridish.</p>
+</div>
+          
+          
+
+          <div class="tags">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="caption d-print-none">
+        
+          Image by <a href="https://unsplash.com/photos/pTfcnk9WZHA">Krzysztof Niewolny</a>
+        
+      </div>
+    
+  </header>
+
+
+      <div class="container content">
+
+          
+        <div class="row">
+
+
+  
+  <div class="col-md-10 col-lg-3 mx-auto">
+    <div class="toc">
+      <h6>On this page</h6>
+      <ul><li><a href="#styling-content">Styling content</a></li><li><a href="#headings">Headings</a></li><li><a href="#heading-h2">Heading h2</a><ul><li><a href="#heading-h3">Heading h3</a></li></ul></li><li><a href="#table-of-content">Table of content</a></li><li><a href="#paragraphs">Paragraphs</a></li><li><a href="#line-breaks">Line breaks</a></li><li><a href="#emphasis">Emphasis</a></li><li><a href="#blockquotes">Blockquotes</a></li><li><a href="#lists">Lists</a></li><li><a href="#code">Code</a></li><li><a href="#horizontal-rules">Horizontal rules</a></li><li><a href="#links">Links</a></li><li><a href="#tables">Tables</a></li><li><a href="#footnotes">Footnotes</a></li><li><a href="#images">Images</a></li></ul>
+    </div>
+  </div>
+  
+  <div class="col-md-12 col-lg-10 order-lg-first mx-auto">
+
+    <p class="alert alert-warning">The source file for this page is <a href="https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/docs/markdown.md"><code class="language-plaintext highlighter-rouge">pages/docs/markdown.md</code></a>. There you can see the raw Markdown.</p>
+
+<h2 id="styling-content">Styling content</h2>
+
+<p>Petridish uses <a href="https://kramdown.gettalong.org/">kramdown</a> as Markdown processor. This processor allows you to add attributes, such as CSS classes to your content (see this <a href="https://digitaldrummerj.me/styling-jekyll-markdown/">blog post</a>). By sticking to <a href="https://getbootstrap.com/docs/5.1/">Bootstrap</a> classes, you can easily style your content. If that doesn’t fit your needs, you can always write html in your Markdown.</p>
+
+<p>For example, the paragraph at the top of this page is styled as a <a href="https://getbootstrap.com/docs/5.1/components/alerts/">Bootstrap alert</a> because it has <code class="language-plaintext highlighter-rouge">{:.alert .alert-warning}</code> right before it. Block elements like paragraphs need their class on the line above it.</p>
+
+<p>Inline elements on the other hand, need a class right after it. For example, to style a link as a button, use <code class="language-plaintext highlighter-rouge">[Don't click](http://example.com){:.btn .btn-danger}</code>:</p>
+
+<p><a href="http://example.com" class="btn btn-danger">Don’t click</a></p>
+
+<p>Note that kramdown does not process bare URL like GitHub does (they need to be written as <code class="language-plaintext highlighter-rouge">&lt;url&gt;</code>). If you want your content to <a href="https://docs.github.com/en/enterprise-server@3.5/pages/setting-up-a-github-pages-site-with-jekyll/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll">match the results you see on GitHub</a> without the option to style, change the markdown parser in <code class="language-plaintext highlighter-rouge">_config.yml</code> to:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">markdown</span><span class="pi">:</span> <span class="s">gfm</span> <span class="c1"># GitHub Flavoured Markdown</span>
+</code></pre></div></div>
+
+<h2 id="headings">Headings</h2>
+
+<h1 id="heading-h1">Heading h1</h1>
+
+<p>h1 headings are reserved for page titles and are hidden from content. Start your headings at h2.</p>
+
+<h2 id="heading-h2">Heading h2</h2>
+<h3 id="heading-h3">Heading h3</h3>
+<h4 id="heading-h4">Heading h4</h4>
+<h5 id="heading-h5">Heading h5</h5>
+<h6 id="heading-h6">Heading h6</h6>
+<h6 id="custom_id">Heading with custom id</h6>
+
+<h2 id="table-of-content">Table of content</h2>
+
+<p>Add <code class="language-plaintext highlighter-rouge">toc: true</code> to your page/post front matter. See <a href="/docs/configuration/#pages">configuration</a>.</p>
+
+<h2 id="paragraphs">Paragraphs</h2>
+
+<p>Set i won’t void spirit all. Had after called us It wherein Tree in deep abundantly also midst Seed. Beast. Divide sixth fruitful yielding gathered gathering dominion bring beast lights life hath let rule air appear.</p>
+
+<p>Bring let rule creature. Very open hath to years. In second kind. Divide land night. Earth bearing tree lesser likeness likeness won’t. Likeness creature light.</p>
+
+<h2 id="line-breaks">Line breaks</h2>
+
+<p>This is the first line.<br />
+And this is the second line.</p>
+
+<h2 id="emphasis">Emphasis</h2>
+
+<p>This is <strong>bold text</strong></p>
+
+<p>This is <em>italicized text</em></p>
+
+<p>This is <strong><em>bold italicized text</em></strong></p>
+
+<p>This is <del>strikethrough text</del></p>
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<blockquote>
+  <p>Gathering brought him green. Creeping very after hath a, from likeness dry tree moved dry fowl. Our let forth, male dry won’t god. Kind a thing, dominion lights midst him gathering waters fruitful greater god have dry land deep abundantly.</p>
+</blockquote>
+
+<h2 id="lists">Lists</h2>
+
+<p>Unordered list:</p>
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3
+    <ul>
+      <li>Subitem 1</li>
+      <li>Subitem 2</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Ordered list:</p>
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3
+    <ol>
+      <li>Subitem 1</li>
+      <li>Subitem 2</li>
+    </ol>
+  </li>
+</ol>
+
+<p>Task list:</p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Item 1</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Item 2</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Item 3</li>
+</ul>
+
+<p>Definition list:</p>
+
+<dl>
+  <dt>term 1</dt>
+  <dd>definition 1.1</dd>
+  <dd>definition 1.2</dd>
+  <dt>term 2</dt>
+  <dd>definition 2</dd>
+</dl>
+
+<h2 id="code">Code</h2>
+
+<p>Inline <code class="language-plaintext highlighter-rouge">code</code></p>
+
+<p>Code block by indenting code with 4 spaces:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>part_of_team = True
+if part_of_team:
+  print("Everything is awesome!") # If you're part of a team
+</code></pre></div></div>
+
+<p>Code block by fencing code in backticks. This method allows supports syntax highlighting by adding the language, e.g. <code>```python</code>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">part_of_team</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="k">if</span> <span class="n">part_of_team</span><span class="p">:</span>
+  <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Everything is awesome!</span><span class="sh">"</span><span class="p">)</span> <span class="c1"># If you're part of a team
+</span></code></pre></div></div>
+
+<h2 id="horizontal-rules">Horizontal rules</h2>
+
+<hr />
+
+<h2 id="links">Links</h2>
+
+<p><a href="http://www.example.com">link with url</a></p>
+
+<p><a href="http://www.example.com" title="title text">link with title</a></p>
+
+<p><a href="http://www.example.com">link with reference</a></p>
+
+<p>url: <a href="http://www.example.com">http://www.example.com</a></p>
+
+<p>See the <a href="https://jekyllrb.com/docs/liquid/tags/#link">Jekyll documentation</a> to create internal links. There are several approaches, but in my opinion the safest option is using root-relative permalinks (starting with <code class="language-plaintext highlighter-rouge">/</code>) and the <code class="language-plaintext highlighter-rouge">relative_url</code> filter:</p>
+
+<ul>
+  <li>For pages: <a href="/about/"><code class="language-plaintext highlighter-rouge">[link text]({{ '/about/' | relative_url }})</code></a></li>
+  <li>For posts: <a href="/blog/2019/welcome-to-jekyll/"><code class="language-plaintext highlighter-rouge">[link text]({{ '/permalink_of_post/' | relative_url }})</code></a></li>
+  <li>For images and documents: <a href="/assets/theme/images/chuttersnap-146799-unsplash.jpg"><code class="language-plaintext highlighter-rouge">[link text]({{ '/assets/images/name-of-image.jpg' | relative_url }})</code></a></li>
+</ul>
+
+<p>You can simplify links if your site lives at a custom root domain (e.g. <code class="language-plaintext highlighter-rouge">https://example.com</code>, no <code class="language-plaintext highlighter-rouge">baseurl</code> set in <code class="language-plaintext highlighter-rouge">_config.yml</code>) or when Jekyll 4.0+ is used. Neither are the case for a default GitHub Pages, so the links below are likely broken:</p>
+
+<ul>
+  <li>For pages: <a href="/about/"><code class="language-plaintext highlighter-rouge">[link text](/about/)</code></a></li>
+  <li>For posts: <a href="/blog/2019/welcome-to-jekyll/"><code class="language-plaintext highlighter-rouge">[link text](/permalink_of_post/)</code></a></li>
+  <li>For images and documents: <a href="'/assets/theme/images/chuttersnap-146799-unsplash.jpg"><code class="language-plaintext highlighter-rouge">[link text](/assets/images/name-of-image.jpg)</code></a></li>
+</ul>
+
+<p>If you want links that work on your site <em>and</em> in your GitHub repository, use relative links to the Markdown files (e.g. <code class="language-plaintext highlighter-rouge">[about](../about.md)</code>). These are automatically converted to permalinks by the <a href="https://github.com/benbalter/jekyll-relative-links">jekyll-relative-links</a> plugin (enabled by default on GitHub Pages), but will break if you move pages around.</p>
+
+<h2 id="tables">Tables</h2>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Row 1 col 1</td>
+      <td>Row 1 col 2</td>
+    </tr>
+    <tr>
+      <td>Row 2 col 1</td>
+      <td>Row 2 col 2 very_long_word_that_does_not_wrap_but_should_trigger_horizontal_scroll</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p>Aligned columns:</p>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: left">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Row 1 col 1</td>
+      <td style="text-align: left">Row 1 col 2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Row 2 col 1</td>
+      <td style="text-align: left">Row 2 col 2 very_long_word_that_does_not_wrap_but_should_trigger_horizontal_scroll</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p>HTML table with Bootstrap classes:</p>
+
+<div class="table-responsive"><table class="table table-dark table-striped">
+  <thead>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </thead>
+  <tbody>
+    <tr><td>Row 1 col 1</td><td>Row 1 col 2</td></tr>
+    <tr><td>Row 2 col 1</td><td>Row 2 col 2 very_long_word_that_does_not_wrap_but_should_trigger_horizontal_scroll</td></tr>
+  </tbody>
+</table></div>
+
+<p>Petridish will automatically wrap tables in a div with class <a href="https://getbootstrap.com/docs/5.0/content/tables/#responsive-tables"><code class="language-plaintext highlighter-rouge">table-responsive</code></a> to avoid tables getting wider than their parent container. It will also automatically convert <code class="language-plaintext highlighter-rouge">&lt;table&gt;</code> to <code class="language-plaintext highlighter-rouge">&lt;table class="table"&gt;</code> to enable Bootstrap layout, unless you already defined class(es) for your table.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<p>Here’s a sentence with a footnote. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<h2 id="images">Images</h2>
+
+<p><img src="https://images.unsplash.com/photo-1486825586573-7131f7991bdd?w=1000&amp;h=200&amp;fit=crop" alt="alt text" />
+<em>You can add an image caption by including an <code class="language-plaintext highlighter-rouge">_emphasized sentence_</code> directly below the image without inserting a new line. This will wrap both image and caption in a paragraph.</em></p>
+
+<p>See the <a href="#links">the links section</a> to learn how to reference your own images and documents.</p>
+
+<p>By default, images will be centered horizontally and use the full width if they can. But you can change <strong>image alignment</strong> by using <a href="https://getbootstrap.com/docs/5.1/content/images/#aligning-images">Bootstrap classes</a>.</p>
+
+<p>For example, the image below is wrapped in a paragraph with <code class="language-plaintext highlighter-rouge">{:.col-md-8 .mx-auto}</code> to contain it (and its caption) to 8/12 of the width on medium and larger screens. On small screens the full width will be used. Controlling the width of an image is especially useful for portrait images.</p>
+
+<p class="col-md-8 mx-auto"><img src="https://images.unsplash.com/photo-1486825586573-7131f7991bdd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="alt text" />
+<em>Image caption for this image should nicely wrap to the width of the container.</em></p>
+
+<p class="clearfix"><img src="https://images.unsplash.com/photo-1486825586573-7131f7991bdd?w=150&amp;h=150&amp;fit=crop" alt="alt text" class="rounded float-start" /> The image to the left is styled with <code class="language-plaintext highlighter-rouge">{:.rounded .float-start}</code> to give it round corners and position it at the start (i.e. left), with text wrapping around it. Note that in <a href="https://getbootstrap.com/docs/5.1/migration/#utilities">Bootstrap v5</a> <code class="language-plaintext highlighter-rouge">.float-left</code> was renamed to <code class="language-plaintext highlighter-rouge">.float-start</code> and <code class="language-plaintext highlighter-rouge">.float-right</code> to <code class="language-plaintext highlighter-rouge">.float-end</code>, but the old class names are still supported in Petridish.</p>
+
+<p>The image does not wrap around this paragraph, because the previous paragraph also has a <a href="https://getbootstrap.com/docs/5.1/helpers/clearfix/"><code class="language-plaintext highlighter-rouge">{:.clearfix}</code></a> class, which contains wrapping to that paragraph only.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is the footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+    
+  </div>
+</div>
+
+
+      </div>
+    </main>
+
+    <footer class="d-print-none">
+  <div class="container">
+    <div class="row">
+      
+        <div class="col-lg">
+          <ul class="list-inline">
+            
+              <li class="list-inline-item">
+                <a href="mailto:name@example.com">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+              <li class="list-inline-item">
+                <a href="https://twitter.com/donuts-colab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+              <li class="list-inline-item">
+                <a rel="me" href="https://mastodon.social/@mastodon_username">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+
+            
+              <li class="list-inline-item">
+                <a href="https://github.com/github_username">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+              <li class="list-inline-item">
+                <a href="/feed.xml">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      
+
+      
+        <div class="col-lg">
+          
+            <p>© 2023 DONUTS Colab</p>
+          
+          
+          
+        </div>
+      
+    </div>
+
+    
+  </div>
+</footer>
+
+<!-- <script src="/assets/theme/js/anchor.min.js"></script>
+<script>
+  // Show anchors when hovering over headings, using anchor.js
+  (function () {
+    const headings = ".content h2[id], .content h3[id], .content h4[id], .content h5[id], .content h6[id]";
+    anchors.options = { placement: "right" };
+    anchors.add(headings);
+  })();
+</script>
+ -->
+
+
+  </body>
+</html>
+            
+            
