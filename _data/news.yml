@@ -1,9 +1,41 @@
-- date: 01/31/2024
-  image: https://images.theconversation.com/files/572027/original/file-20240129-15-6x4k1s.jpg
-  title: "Teens on social media need both protection and privacy \u2013 AI could help\
-    \ get the balance right"
-  url: https://theconversation.com/teens-on-social-media-need-both-protection-and-privacy-ai-could-help-get-the-balance-right-222052
-- date: .nan
-  image: https://cscw.acm.org/2023/wp-content/uploads/2022/11/CSCW-2.png
-  title: .nan
-  url: .nan
+- date 01/31/2024: 01/02/2024
+  image https://images.theconversation.com/files/572027/original/file-20240129-15-6x4k1s.jpg: .nan
+  "title Teens on social media need both protection and privacy \u2013 AI could help get the balance right": 'We
+    are organizing the 1st workshop on "Reclaiming the Narrative: Digital Recovery,
+    AI & Mitigating Harm in Social Media" @icwsm! '
+  ? url https://theconversation.com/teens-on-social-media-need-both-protection-and-privacy-ai-could-help-get-the-balance-right-222052
+  : https://sites.google.com/view/reclaiming-the-narrative/
+- date 01/31/2024: 01/02/2024
+  image https://images.theconversation.com/files/572027/original/file-20240129-15-6x4k1s.jpg: .nan
+  "title Teens on social media need both protection and privacy \u2013 AI could help get the balance right": New
+    Paper accepted at LREC-COLING 2024 on the extraction of impact relevant sections
+    in scientific research
+  ? url https://theconversation.com/teens-on-social-media-need-both-protection-and-privacy-ai-could-help-get-the-balance-right-222052
+  : .nan
+- date 01/31/2024: 01/01/2024
+  image https://images.theconversation.com/files/572027/original/file-20240129-15-6x4k1s.jpg: .nan
+  "title Teens on social media need both protection and privacy \u2013 AI could help get the balance right": New
+    Paper accepted at EACL 2024 on the analysis of narrativity in podcast data
+  ? url https://theconversation.com/teens-on-social-media-need-both-protection-and-privacy-ai-could-help-get-the-balance-right-222052
+  : .nan
+- date 01/31/2024: 01/09/2023
+  image https://images.theconversation.com/files/572027/original/file-20240129-15-6x4k1s.jpg: .nan
+  "title Teens on social media need both protection and privacy \u2013 AI could help get the balance right": 'our
+    work "Sliding into My DMs: Detecting Uncomfortable or Unsafe Sexual Risk Experiences
+    within Instagram Direct Messages Grounded in the Perspective of Youth" received
+    the Impact Recognition Award at CSCW 2023.'
+  ? url https://theconversation.com/teens-on-social-media-need-both-protection-and-privacy-ai-could-help-get-the-balance-right-222052
+  : https://dl.acm.org/doi/10.1145/3579522
+- date 01/31/2024: 01/09/2023
+  image https://images.theconversation.com/files/572027/original/file-20240129-15-6x4k1s.jpg: .nan
+  "title Teens on social media need both protection and privacy \u2013 AI could help get the balance right": Presenting
+    "A Data Donation Approach for Youth Online Safety" at Data Donation Symposium
+  ? url https://theconversation.com/teens-on-social-media-need-both-protection-and-privacy-ai-could-help-get-the-balance-right-222052
+  : https://datadonation.uzh.ch/en/symposium-2023/
+- date 01/31/2024: 01/11/2023
+  image https://images.theconversation.com/files/572027/original/file-20240129-15-6x4k1s.jpg: .nan
+  "title Teens on social media need both protection and privacy \u2013 AI could help get the balance right": Talk
+    at the AI and Global Data Governance Panel at Drexel's Global Studies and Modern
+    Languages.
+  ? url https://theconversation.com/teens-on-social-media-need-both-protection-and-privacy-ai-could-help-get-the-balance-right-222052
+  : .nan
