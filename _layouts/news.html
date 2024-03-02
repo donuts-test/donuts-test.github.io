@@ -31,7 +31,7 @@ description: Template for a list of posts as cards, with full width.
     {% if site.posts_on_home > 0 %}
       <div class="row cards mt-4">
         {% for item in news %}
-          <div class="col-md-6{% if two_col %} col-lg-4{% endif %}">
+          <div>
             {% include card.html %}
           </div>
         {% endfor %}
