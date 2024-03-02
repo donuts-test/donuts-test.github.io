@@ -49,7 +49,8 @@ remark: See also page.layout == 'home' in head.html and header.html.
       <div class="row cards mt-4">
               <h2>NEWS</h2>
         {% for item in news limit:site.posts_on_home %}
-          <div class="col-md-6{% if two_col %} col-lg-4{% endif %}">
+<!--           <div class="col-md-6{% if two_col %} col-lg-4{% endif %}"> -->
+              <div>
             {% include card.html %}
           </div>
         {% endfor %}
