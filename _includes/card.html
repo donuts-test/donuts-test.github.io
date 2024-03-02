@@ -5,19 +5,24 @@
 {% endif %}
 
 <div class="card" data-tags="{% for tag in item.tags %}{{ tag | downcase | strip }}|{% endfor %}">
-  <a  href="{{ item.url | relative_url }}" target="_blank">
+<!--   <a  href="{{ item.url | relative_url }}" target="_blank"> -->
 <!--     {% if item.image %}
       <img class="card-img-top" src="{{ item.image | relative_url }}" alt="Background image">  
     {% else %}
       <div class="card-img-top bg-secondary"></div>
     {% endif %} -->
-  </a>
+<!--   </a> -->
 
   <div class="card-body position-relative">
     <h6 class="card-title" style="display: inline;">
       <span>{{ item.date }} : </span>
     </h6>
-    <a class="stretched-link" href="{{ item.url | relative_url }}" target="_blank">{{ item.title }}</a>
+    {% if item.url %}
+      <a class="stretched-link" href="{{ item.url | relative_url }}" target="_blank">{{ item.title }}</a>
+    {% else %}
+      <span class="stretched-link">{{ item.title }}</span>
+    {% endif %}
+      
 
 <!--     {% if item.collection == 'posts' %} -->
       <h6 class="card-subtitle">{{ item.date }}</h6>
