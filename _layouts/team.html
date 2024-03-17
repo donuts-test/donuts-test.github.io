@@ -115,7 +115,7 @@ description: Template for team page.
       </div>
       <div>
         {% if member.website %}
-          <a href="{{ member.website }}">
+          <a href="{{ member.website }}"  target="_blank">
             <h5 id="{{ member.name | strip | url_encode }}">
               {{ member.name }}
               {% if member.role %}
