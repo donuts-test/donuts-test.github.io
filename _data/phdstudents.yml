@@ -6,7 +6,7 @@
   linkedin: layla-bouzoubaa
   name: Layla Bouzoubaa
   twitter: bouzoulay
-  website: https://www.laylab.me/
+  website: https://www.laylab.net/
 - description: Trust, Ethics, and Privacy in HCI, and Ontological Modeling
   email: sanonda.datta.gupta@drexel.edu
   googlescholar: J4CgkboAAAAJ
@@ -37,3 +37,13 @@
   twitter: HalflingWizard_
   website: https://halflingwizard.github.io/
   youtube: HalflingWizard
+- description: Cybersecurity, Artificial Intelligence, Machine Learning, Online Safety, and Privacy
+  email: nb899@drexel.edu
+  image: assets/theme/images/nirav.jpg
+  linkedin: nirav-brahmhatt
+  name: Nirav Brahmbhatt
+- description: AI, Ethics, Machine Learning, and Online Safety
+  email: tlc373@drexel.edu
+  image: assets/theme/images/tyler.jpg
+  linkedin: tylerchang
+  name: Tyler Chang
